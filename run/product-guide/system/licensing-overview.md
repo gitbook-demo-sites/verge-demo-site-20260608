@@ -93,6 +93,6 @@ For detailed instructions, see:
 
 ## Additional Resources
 
-- [Licensing and Software Updates](https://app.gitbook.com/s/null/product-guide/system/licensing-and-updates) — Managing updates and update server configuration
-- [Verify Licensing and Update Server Configuration](https://app.gitbook.com/s/null/product-guide/system/license-updates-verify) — Troubleshooting licensing connectivity
-- [System Settings Overview](https://app.gitbook.com/s/null/product-guide/system/settings-overview) — General system settings reference
+- [Licensing and Software Updates](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/licensing-and-updates) — Managing updates and update server configuration
+- [Verify Licensing and Update Server Configuration](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/license-updates-verify) — Troubleshooting licensing connectivity
+- [System Settings Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/settings-overview) — General system settings reference

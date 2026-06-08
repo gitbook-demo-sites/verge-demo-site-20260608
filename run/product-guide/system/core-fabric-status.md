@@ -32,7 +32,7 @@ categories:
 ## Prerequisites
 
 - Access to the VergeOS interface with node management privileges
-- Basic understanding of [VergeOS core network architecture](https://app.gitbook.com/s/null/implementation-guide/concepts#core-fabric-network)
+- Basic understanding of [VergeOS core network architecture](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/concepts#core-fabric-network)
 - Physical console or IPMI access to nodes (for troubleshooting)
 - Knowledge of your core VLAN assignments (Core 1 and Core 2) and expected NIC link speed
 
@@ -79,12 +79,12 @@ On a day-to-day basis, monitoring fabric status can be handled through the same 
 !!! tip
     Clicking an alarm in the list will navigate directly to the affected Node Dashboard, where further detail is available.
 
-For more information on viewing and managing alarms, see the [Alarms Guide](https://app.gitbook.com/s/null/product-guide/operations/alarms).
+For more information on viewing and managing alarms, see the [Alarms Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/alarms).
 
 
 !!! warning "Address Core Network Alarms Immediately"
     Core network alarms indicate that your system may not have full fabric redundancy. Resolve these promptly to ensure your cluster can tolerate a failure without disruption.
-    Event triggers can be configured to send notifications via email, text alerting systems, monitored Slack channels, and more, ensuring administrators are notified immediately. See the [Task Engine Product Guide](https://app.gitbook.com/s/null/product-guide/automation/task-engine) for more information about creating automated tasks; this [Automation Example](https://docs.verge.io/knowledge-base/automated-task-example-webhook/) KB article provides an example of setting up event-driven notifications.
+    Event triggers can be configured to send notifications via email, text alerting systems, monitored Slack channels, and more, ensuring administrators are notified immediately. See the [Task Engine Product Guide](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/task-engine) for more information about creating automated tasks; this [Automation Example](https://docs.verge.io/knowledge-base/automated-task-example-webhook/) KB article provides an example of setting up event-driven notifications.
 
 
 ### Node NICs List
@@ -263,7 +263,7 @@ A node that should be in the cluster does not appear in the fabric output at all
 
 ## Pre-Maintenance Fabric Verification
 
-VergeOS maintenance operations — including [system updates](https://app.gitbook.com/s/null/product-guide/operations/sop-update), [vSAN scale-ups](https://app.gitbook.com/s/null/product-guide/operations/vsan-scale-up-sop), and [scale-outs](https://app.gitbook.com/s/null/product-guide/operations/sop-scale-out) — require a healthy fabric as a prerequisite. **Do not proceed with maintenance if the fabric is unhealthy.** Resolve any issues first using the [Troubleshooting](#troubleshooting-fabric-issues) section below.
+VergeOS maintenance operations — including [system updates](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/sop-update), [vSAN scale-ups](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/vsan-scale-up-sop), and [scale-outs](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/sop-scale-out) — require a healthy fabric as a prerequisite. **Do not proceed with maintenance if the fabric is unhealthy.** Resolve any issues first using the [Troubleshooting](#troubleshooting-fabric-issues) section below.
 
 A healthy fabric means:
 
@@ -343,10 +343,10 @@ A healthy fabric means:
 
 ## Related Resources
 
-- [Core Concepts — Core Fabric Network](https://app.gitbook.com/s/null/implementation-guide/concepts#core-fabric-network)
-- [Nodes Overview](https://app.gitbook.com/s/null/product-guide/system/nodes-overview)
-- [Node Diagnostics Guide](https://app.gitbook.com/s/null/product-guide/system/node-diagnostics)
-- [System Update SOP](https://app.gitbook.com/s/null/product-guide/operations/sop-update)
-- [vSAN Scale-Up SOP](https://app.gitbook.com/s/null/product-guide/operations/vsan-scale-up-sop)
-- [Scale-Out SOP](https://app.gitbook.com/s/null/product-guide/operations/sop-scale-out)
-- [Switch Configuration Guide](https://app.gitbook.com/s/null/implementation-guide/switch-configuration)
+- [Core Concepts — Core Fabric Network](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/concepts#core-fabric-network)
+- [Nodes Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/nodes-overview)
+- [Node Diagnostics Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/node-diagnostics)
+- [System Update SOP](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/sop-update)
+- [vSAN Scale-Up SOP](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/vsan-scale-up-sop)
+- [Scale-Out SOP](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/sop-scale-out)
+- [Switch Configuration Guide](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/switch-configuration)

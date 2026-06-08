@@ -23,4 +23,4 @@ categories:
 
 This page now points to the centralized drive replacement procedure.
 
-For the step-by-step operational details, follow the [Drive Replacement SOP](https://app.gitbook.com/s/null/product-guide/operations/drive-replacement).
+For the step-by-step operational details, follow the [Drive Replacement SOP](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/drive-replacement).

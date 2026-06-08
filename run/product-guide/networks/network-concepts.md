@@ -94,18 +94,18 @@ Rules govern incoming and outgoing traffic to the network, replacing the traditi
 * **Routing** - to direct traffic between VergeOS networks and out to external networks with defined static routes
 * **NAT/PAT** - map external-internal/internal-internal IP addresses/ports (most often used to conserve external IP addresses)
 
-More information about working with rules is available at: [**Network Rules**](https://app.gitbook.com/s/null/product-guide/networks/network-rules)
+More information about working with rules is available at: [**Network Rules**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-rules)
 
 
 ## Network Monitoring and Diagnostics
 
 VergeOS provides several tools for monitoring and analyzing network traffic:
 
-* [**Network Dashboards:**](https://app.gitbook.com/s/null/product-guide/networks/network-dashboards) Observe real-time and historical network activity within the VergeOS user interface
-* [**Port Mirroring:**](https://app.gitbook.com/s/null/product-guide/networks/port-mirroring) Replicate a network's traffic to a VM NIC for comprehensive examination and analysis
-* [**Track Network Statistics:**](https://app.gitbook.com/s/null/product-guide/networks/tracking-net-statistics) Obtain granular traffic analysis per individual network rule
-* [**Network Diagnostics Tool:**](https://app.gitbook.com/s/null/product-guide/networks/network-diagnostics) Use built-in, user-friendly interface on each network for convenient troubleshooting   
-*  [**Subscriptions:**](https://app.gitbook.com/s/null/product-guide/system/subscriptions-overview) Select Network-type subscriptions to create alerts and reports for your networks
+* [**Network Dashboards:**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-dashboards) Observe real-time and historical network activity within the VergeOS user interface
+* [**Port Mirroring:**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/port-mirroring) Replicate a network's traffic to a VM NIC for comprehensive examination and analysis
+* [**Track Network Statistics:**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/tracking-net-statistics) Obtain granular traffic analysis per individual network rule
+* [**Network Diagnostics Tool:**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-diagnostics) Use built-in, user-friendly interface on each network for convenient troubleshooting   
+*  [**Subscriptions:**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/subscriptions-overview) Select Network-type subscriptions to create alerts and reports for your networks
 
 
 

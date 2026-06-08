@@ -53,7 +53,7 @@ A site that is added to the *Sites Dashboard* can be included with the following
     - ***Receive system snapshots from this site*** - auto creates incoming sync on this system and outgoing sync on the other side to allow transferring snapshots from the remote system to this one.
     - ***Send and receive system snapshots from this site*** - auto creates incoming and outgoing syncs on both sides to facilitate snapshot transfer both ways
 !!! info
-    Selecting a *System Snapshots* option, other than "Disabled", will auto generate the necessary incoming/outgoing syncs, and auto registers with receiving systems. Additional configuration is required on the outgoing system to select the snapshots to synchronize and optionally schedule to occur within specific time frames (e.g. outside of regular business hours); see [Sync Configuration](https://app.gitbook.com/s/null/product-guide/backup-dr/sync-configuration) for instructions.
+    Selecting a *System Snapshots* option, other than "Disabled", will auto generate the necessary incoming/outgoing syncs, and auto registers with receiving systems. Additional configuration is required on the outgoing system to select the snapshots to synchronize and optionally schedule to occur within specific time frames (e.g. outside of regular business hours); see [Sync Configuration](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/sync-configuration) for instructions.
 8. **Sync Statistics** - continual status information transfer between sites, for simpler monitoring of multiple systems: displays high-level status info for each site with the ability to drill down on a specific site for more detailed information
     - ***Disabled*** - does not configure statistics transfer between these systems
     - ***Send statistics to this site*** - will send statistics from this system to the remote one
@@ -65,7 +65,7 @@ A site that is added to the *Sites Dashboard* can be included with the following
     - ***Manage this site's machines*** - allows management of the other system's VMs to be performed from this system
     - ***This site can manage my machines*** - allows management of this local system's VMs from the other system
     - ***Allow bi-directional management of machines*** - allows management of both systems's VMs from the other.
-10. **Repair Server** automatic potential rehabilitation if a system experiences problems extending its redundancy tolerance, such as multiple, simultaneous drive failures across nodes, Typically, a repair server would be a sync destination that contains a relatively recent replication of the given system. More information about repair servers can be found here: [Repair Servers](https://app.gitbook.com/s/null/product-guide/backup-dr/repair-server)
+10. **Repair Server** automatic potential rehabilitation if a system experiences problems extending its redundancy tolerance, such as multiple, simultaneous drive failures across nodes, Typically, a repair server would be a sync destination that contains a relatively recent replication of the given system. More information about repair servers can be found here: [Repair Servers](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/repair-server)
     - ***Disabled*** - does not configure repair servers between these systems
     - ***Connect to this site for repairs*** - configures the remote site as a repair server for the local system
     - ***Receive connections from this site for repairs*** - configures local system as a repair server for the remote site

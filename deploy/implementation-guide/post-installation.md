@@ -78,7 +78,7 @@ Ensure external redundancy for remote connectivity:
 
 ## 3. System Configuration
 
-* VergeOS provides configuration options for you to secure and maximize the benefits of your new system.  Follow the **[New System Configuration Checklist](https://app.gitbook.com/s/null/product-guide/intro/new-system-configuration)** in the Product Guide to finish preparing your environment for production.
+* VergeOS provides configuration options for you to secure and maximize the benefits of your new system.  Follow the **[New System Configuration Checklist](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/intro/new-system-configuration)** in the Product Guide to finish preparing your environment for production.
 
 ---
 

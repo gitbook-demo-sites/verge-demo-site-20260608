@@ -108,7 +108,7 @@ This opens the profile currently assigned for automatic system snapshots (defaul
 3. Scroll to the **Periods** section.   
 Each period listed defines a frequency and retention.  You can add, modify, and remove periods to customize the schedule.  
 
-For detailed instructions on configuring periods, see [Snapshot Profiles - Profile Periods](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshot-profiles#profile-periods). 
+For detailed instructions on configuring periods, see [Snapshot Profiles - Profile Periods](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshot-profiles#profile-periods). 
 
 
 ## Manual System Snapshots
@@ -132,12 +132,12 @@ A manual system snapshot can be taken at any time. Creating a short‑term manua
         * ***Partial - Exclude Tags***: captures all VMs, tenants, VMware services, and volumes *except* those with specified tags
         * ***Partial - Include Tags***: captures only VMs, tenants, VMware services, and volumes with the specified tags
             * **Exclude/Include Tags** (Partial snapshots only): Click the ellipse button [<i class="bi bi-three-dots"></i>] to select one or more tags. 
-            * **Quiesce Tags**: (optional; Partial snapshots only); Click the ellipse button [<i class="bi bi-three-dots"></i>] to select one or more tags. VMs with the specified tags will temporarily freeze disk activity during capture to provide an application-consistent snapshot.  Requires [VM Guest Agent](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-guest-agent) support.
+            * **Quiesce Tags**: (optional; Partial snapshots only); Click the ellipse button [<i class="bi bi-three-dots"></i>] to select one or more tags. VMs with the specified tags will temporarily freeze disk activity during capture to provide an application-consistent snapshot.  Requires [VM Guest Agent](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-guest-agent) support.
     * **Private** (default:enabled): This option can be deselected to allow tenants access to their own data within this snapshot.  
     * **Immutable** (default:disabled): Prevents deletion until unlocked, with a mandatory waiting period.
    
 
-!!! warning "Immutable snapshots cannot be deleted (even by administrators) until unlocked, and the waiting period has elapsed. Ensure retention settings align with available storage. For more guidance, refer to the [Immutable Snapshots Guide](https://app.gitbook.com/s/null/product-guide/backup-dr/immutable-snapshots)."  
+!!! warning "Immutable snapshots cannot be deleted (even by administrators) until unlocked, and the waiting period has elapsed. Ensure retention settings align with available storage. For more guidance, refer to the [Immutable Snapshots Guide](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/immutable-snapshots)."  
 
 4. Click **Submit** to take the snapshot.
 
@@ -160,11 +160,11 @@ A manual system snapshot can be taken at any time. Creating a short‑term manua
 
 ## Related Documentation
 
-* [Snapshots Overview](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshots-overview)
-* [Snapshot Profiles](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshot-profiles)
-* [Restores from System Snapshot](https://app.gitbook.com/s/null/product-guide/backup-dr/system-snapshot-restores)
-* [Tenant Snapshots](https://app.gitbook.com/s/null/product-guide/tenants/tenant-snapshots)
-* [Tenant Restores](https://app.gitbook.com/s/null/product-guide/tenants/tenant-restores)
-* [VM Snapshots and Restores](https://app.gitbook.com/s/null/product-guide/backup-dr/vm-snapshots-restores)
-* [NAS Volume Snapshots and Restores](https://app.gitbook.com/s/null/product-guide/nas/volume-snapshots-restores)
-* [Site Syncs](https://app.gitbook.com/s/null/product-guide/backup-dr/syncs-overview)
+* [Snapshots Overview](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshots-overview)
+* [Snapshot Profiles](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshot-profiles)
+* [Restores from System Snapshot](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshot-restores)
+* [Tenant Snapshots](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/tenant-snapshots)
+* [Tenant Restores](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/tenant-restores)
+* [VM Snapshots and Restores](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/vm-snapshots-restores)
+* [NAS Volume Snapshots and Restores](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/volume-snapshots-restores)
+* [Site Syncs](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/syncs-overview)

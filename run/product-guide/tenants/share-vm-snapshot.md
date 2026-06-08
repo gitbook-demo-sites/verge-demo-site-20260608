@@ -27,7 +27,7 @@ The *Shared Objects* feature provides convenient, snapshot-based VM sharing betw
 
 ## On the Sending System
 
-1. **Establish desired VM snapshot**: [Take a manual snapshot of the VM](https://app.gitbook.com/s/null/product-guide/backup-dr/vm-snapshots-restores#take-a-manual-snapshot-of-a-vm) or determine an existing VM snapshot you wish to use.
+1. **Establish desired VM snapshot**: [Take a manual snapshot of the VM](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/vm-snapshots-restores#take-a-manual-snapshot-of-a-vm) or determine an existing VM snapshot you wish to use.
 2. Navigate to **System > Shared Objects**.
 3. Click **New** on the left menu.
 4. Provide a **Name** for the shared object; this will be used to name the imported VM on the receiving system.

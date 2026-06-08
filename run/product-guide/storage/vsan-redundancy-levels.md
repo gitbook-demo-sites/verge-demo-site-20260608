@@ -41,7 +41,7 @@ N+1 redundancy maintains **2 copies** of every data block in the vSAN. This allo
 VergeOS N+1 is the default configuration and well suited for most scenarios. It provides a strong balance between capacity efficiency and fault tolerance and is appropriate for many production environments when combined with best practices for data protection such as regular snapshots and off-site data replication.
 
 !!! tip
-    For additional protection, a [Repair Server](https://app.gitbook.com/s/null/product-guide/backup-dr/repair-server) can be configured to automatically attempt to retrieve missing data blocks from a sync destination if failures exceed the configured redundancy level, potentially avoiding a full snapshot rollback.
+    For additional protection, a [Repair Server](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/repair-server) can be configured to automatically attempt to retrieve missing data blocks from a sync destination if failures exceed the configured redundancy level, potentially avoiding a full snapshot rollback.
 
 ## N+2 Redundancy (RF3)
 
@@ -64,7 +64,7 @@ A failure only affects the tier where the failed drives reside. For example, in 
 
 ## Configuring vSAN Redundancy Level
 
-Redundancy level is typically configured during [system installation](https://app.gitbook.com/s/null/implementation-guide/installation-guide).
+Redundancy level is typically configured during [system installation](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/installation-guide).
 
 ## Changing a System's Redundancy Levels
 

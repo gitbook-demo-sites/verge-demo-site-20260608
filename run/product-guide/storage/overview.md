@@ -45,23 +45,23 @@ The VergeFS **Virtual Storage Area Network (vSAN)** is a fundamental component t
 * **Data integrity**: Continuous bit-rot detection protects against silent data corruption
 * **Self-healing**: Automatic recovery from hardware failures
 * **Horizontal scalability**: Add storage capacity and performance by adding nodes
-* **Legacy hardware support**: Wide device support, including HDD and [Fibre Channel](https://app.gitbook.com/s/null/product-guide/storage/fibre-channel) to integrate existing SAN infrastructure
+* **Legacy hardware support**: Wide device support, including HDD and [Fibre Channel](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/fibre-channel) to integrate existing SAN infrastructure
 * **Effortless virtual disk management**: storage abstraction provides simplified and flexible virtual disk provisioning and management 
 
-More information about VergeFS architecture can be found at: [VergeOS vSAN Block-Level Architecture and Data Distribution](https://app.gitbook.com/s/null/product-guide/storage/vsan-architecture)
+More information about VergeFS architecture can be found at: [VergeOS vSAN Block-Level Architecture and Data Distribution](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/vsan-architecture)
 
 ## Integrated Data Protection 
 
-* [**Snapshots**](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshots-overview): Point-in-time copies for quick recovery
-* [**Replication**](https://app.gitbook.com/s/null/product-guide/backup-dr/sync-configuration): Copy complete systems along with data to another location for archival and disaster recovery
-* [**Backup integration**](https://app.gitbook.com/s/null/product-guide/tools-integrations/storware-backup-recovery): Compatibility with external enterprise backup software 
+* [**Snapshots**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshots-overview): Point-in-time copies for quick recovery
+* [**Replication**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/sync-configuration): Copy complete systems along with data to another location for archival and disaster recovery
+* [**Backup integration**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/storware-backup-recovery): Compatibility with external enterprise backup software 
 
 
 ## File-level Storage
 
-* [**File Management**](https://app.gitbook.com/s/null/product-guide/storage/uploading-files-to-vsan) - easily upload and manage individual ISO images, VM disk images, logos and other files to use in your system and share among sites and tenants. 
+* [**File Management**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/uploading-files-to-vsan) - easily upload and manage individual ISO images, VM disk images, logos and other files to use in your system and share among sites and tenants. 
 
-* [**Network Attached Storage (NAS)**](https://app.gitbook.com/s/null/product-guide/nas/overview) - embedded NAS services allow you to create volumes for file-level access on your VergeOS distributed storage, in order to: share across workloads, easily import/export data for backups or migration, mount external file systems, and more.  
+* [**Network Attached Storage (NAS)**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/overview) - embedded NAS services allow you to create volumes for file-level access on your VergeOS distributed storage, in order to: share across workloads, easily import/export data for backups or migration, mount external file systems, and more.  
 
 
 

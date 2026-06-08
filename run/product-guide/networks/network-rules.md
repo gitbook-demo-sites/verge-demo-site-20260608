@@ -77,7 +77,7 @@ For long rule lists, it may be helpful to filter the list (e.g. display Incoming
 9. Select a specific ***Interface*** or ***Any*** from the **Interface** dropdown menu.
 10. Optionally pin the rule to the ***Top*** or ***Bottom*** of the rules list.
 11. Select **Enable Throttle** to set a traffic rate limit.
-12. The **Track Rule Statistics** checkbox can be selected to amass totals of the traffic that is processed through this rule. See [**Tracking Network Statistics**](https://app.gitbook.com/s/null/product-guide/networks/tracking-net-statistics) for more information.
+12. The **Track Rule Statistics** checkbox can be selected to amass totals of the traffic that is processed through this rule. See [**Tracking Network Statistics**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/tracking-net-statistics) for more information.
 13. Select **Trace/Debug Rule** to be able to trace packets for diagnostic purposes.
 14. Select **Source** (where traffic comes from) and **Destination** (where traffic is addressed to go) and **Target** (target IP for ***Route*** and ***Translate*** **Actions**) from the dropdown list: 
     - ***Alias:*** to select an Alias IP defined on this network
@@ -108,7 +108,7 @@ For long rule lists, it may be helpful to filter the list (e.g. display Incoming
 5. Select ***Protocol*** from the **Protocol** dropdown list to apply this rule only to specific protocols. Select ***ANY*** to apply this rule to all protocols
 6. Select ***Direction*** from the **Direction** dropdown list (***Incoming*** or ***Outgoing***)
 7. Optionally pin the rule to the ***Top*** or ***Bottom*** of the rules list.
-8. The **Track Rule Statistics** checkbox can be selected to amass totals of the traffic that is processed through this rule. See [**Tracking Network Statistics**](https://app.gitbook.com/s/null/product-guide/networks/tracking-net-statistics) for more information.
+8. The **Track Rule Statistics** checkbox can be selected to amass totals of the traffic that is processed through this rule. See [**Tracking Network Statistics**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/tracking-net-statistics) for more information.
 9. Select **Trace/Debug Rule** to be able to trace packets for diagnostic purposes.
 10. Select **Source** (where traffic comes from), **Destination** (where traffic is addressed to go), and **Target** (where to actually direct the traffic):  
     - ***Alias:*** to select an Alias IP defined on this network

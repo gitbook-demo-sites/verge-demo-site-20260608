@@ -496,13 +496,13 @@ The platform's unique combination of enterprise-grade features, simplified manag
 
 Ready to explore VergeOS further? Consider these next steps:
 
-- **[Installation Guide](https://app.gitbook.com/s/null/implementation-guide/installation-guide)** - Get started with your first VergeOS deployment
-- **[VMware Transition Guide](https://app.gitbook.com/s/null/product-guide/intro/transition-from-vmware)** - Migrate from existing VMware infrastructure
-- **[Virtual Machine Management](https://app.gitbook.com/s/null/product-guide/virtual-machines/overview)** - Learn about VergeHV virtualization capabilities
-- **[Tenant Management](https://app.gitbook.com/s/null/product-guide/tenants/overview)** - Explore multi-tenancy features
+- **[Installation Guide](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/installation-guide)** - Get started with your first VergeOS deployment
+- **[VMware Transition Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/intro/transition-from-vmware)** - Migrate from existing VMware infrastructure
+- **[Virtual Machine Management](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/overview)** - Learn about VergeHV virtualization capabilities
+- **[Tenant Management](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/overview)** - Explore multi-tenancy features
 <!-- - **[Reference Architectures](/reference-architecture/)** - Review deployment examples for different use cases -->
 
 ## Ready to Explore?
 
-Now that you understand the foundational concepts and architecture of VergeOS, explore the complete range of platform capabilities available to you. Our [Platform Capabilities Guide](https://app.gitbook.com/s/null/product-guide/intro/platform-capabilities) provides a comprehensive catalog of features with links to detailed implementation guides.
+Now that you understand the foundational concepts and architecture of VergeOS, explore the complete range of platform capabilities available to you. Our [Platform Capabilities Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/intro/platform-capabilities) provides a comprehensive catalog of features with links to detailed implementation guides.
 

@@ -173,9 +173,9 @@ We've successfully replaced a physical node by moving the original drives into n
 
 ## Additional Resources
 
-- [Maintenance Mode](https://app.gitbook.com/s/null/product-guide/operations/maintenance-mode)
-- [Nodes Overview](https://app.gitbook.com/s/null/product-guide/system/nodes-overview)
-- [Creating Bootable Installation Media](https://app.gitbook.com/s/null/implementation-guide/install-media)
+- [Maintenance Mode](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/maintenance-mode)
+- [Nodes Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/nodes-overview)
+- [Creating Bootable Installation Media](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/install-media)
 
 !!! question "Need Help?"
     If you encounter issues or have questions, contact [VergeOS Support](https://docs.verge.io/support/).

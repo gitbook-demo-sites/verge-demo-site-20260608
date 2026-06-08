@@ -61,16 +61,16 @@ Before implementing these procedures:
 
 ## Available Procedures
 
-### [Installation Procedures](https://app.gitbook.com/s/null/product-guide/operations/sop-verge-install)
+### [Installation Procedures](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/sop-verge-install)
 Complete initial system deployment including hardware preparation, network configuration, and multi-node setup.
 
-### [Scale Out Nodes](https://app.gitbook.com/s/null/product-guide/operations/sop-scale-out)  
+### [Scale Out Nodes](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/sop-scale-out)  
 Add new nodes to expand compute and storage capacity while maintaining system availability and data integrity.
 
-### [System Updates](https://app.gitbook.com/s/null/product-guide/operations/sop-update)
+### [System Updates](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/sop-update)
 Apply VergeOS version updates safely with proper verification and rollback planning.
 
-### [vSAN Scale Up](https://app.gitbook.com/s/null/product-guide/operations/vsan-scale-up-sop)
+### [vSAN Scale Up](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/vsan-scale-up-sop)
 Expand storage capacity by adding drives to existing nodes with proper data rebalancing procedures.
 
 ## Support and Assistance

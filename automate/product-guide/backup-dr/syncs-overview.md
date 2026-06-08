@@ -40,9 +40,9 @@ Site Syncs replicate system snapshots to another VergeOS system, simplifying and
 
 ## Related Links
 
-* [**Sites Dashboard**](https://app.gitbook.com/s/null/product-guide/system/sites-overview)
-* [**Configuring a Site Sync**](https://app.gitbook.com/s/null/product-guide/backup-dr/sync-configuration)
-* [**Monitoring Site Syncs**](https://app.gitbook.com/s/null/product-guide/backup-dr/monitoring-site-syncs)
-* [**Manual Site Syncs**](https://app.gitbook.com/s/null/product-guide/backup-dr/manual-site-syncs)
-* [**Retrieving a Sync Back** (for local data recovery)](https://app.gitbook.com/s/null/product-guide/backup-dr/sync-back)
-* [**Repair Server (ioGuardian)**](https://app.gitbook.com/s/null/product-guide/backup-dr/repair-server)
+* [**Sites Dashboard**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/sites-overview)
+* [**Configuring a Site Sync**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/sync-configuration)
+* [**Monitoring Site Syncs**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/monitoring-site-syncs)
+* [**Manual Site Syncs**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/manual-site-syncs)
+* [**Retrieving a Sync Back** (for local data recovery)](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/sync-back)
+* [**Repair Server (ioGuardian)**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/repair-server)

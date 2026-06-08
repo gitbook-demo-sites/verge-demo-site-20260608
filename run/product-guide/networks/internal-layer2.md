@@ -26,4 +26,4 @@ Internal networks can be created as Layer2 (with layer 3 functions to be handled
 
 ![internal-layer2.png](../screenshots/internal-layer2.png)
 
-Full instructions for creating an internal network can be found at: [**Internal Networks**](https://app.gitbook.com/s/null/product-guide/networks/internal-networks)
+Full instructions for creating an internal network can be found at: [**Internal Networks**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/internal-networks)

@@ -32,7 +32,7 @@ A repair server is created using the existing outgoing sync configuration: vSAN 
 
 ## Create a Repair Server from an Outgoing Sync (common method)
 
-!!! info  "Repair servers may be auto-generated when [**Adding Sites to the Dashboard**](https://app.gitbook.com/s/null/product-guide/system/site-dashboard-add-sites)."
+!!! info  "Repair servers may be auto-generated when [**Adding Sites to the Dashboard**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/site-dashboard-add-sites)."
 
 Typically, a repair server is created from an outgoing sync because the sync destination would contain a recent copy of the data. This is the recommended method in most cases.
 

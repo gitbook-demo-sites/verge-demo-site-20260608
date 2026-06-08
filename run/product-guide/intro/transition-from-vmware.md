@@ -47,7 +47,7 @@ If you're a VMware user considering a shift to VergeOS, this guide will help you
 ## Prerequisites
 
 - Familiarity with VMware vSphere, ESXi, and optionally vSAN or NSX.
-- Access to a VergeOS system or trial environment (see [Bootable Media](https://app.gitbook.com/s/null/implementation-guide/install-media)).
+- Access to a VergeOS system or trial environment (see [Bootable Media](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/install-media)).
 - A backup of your VMware VMs and configurations before migration. (see [VMware Backup/DR Guide](https://docs.verge.io/knowledge-base/vmwarebackupdrguide/)).
 
 ---
@@ -102,11 +102,11 @@ Understanding VergeOS terms in VMware context is crucial for a smooth transition
 | **Redundancy**        | NIC teaming or LACP on switches.            | Core Fabric Networks (dedicated L2) and bonded External Networks. |
 | **Firewall/Security** | NSX Distributed Firewall or external appliance. | Built-in firewall rules on Internal and External Networks. |
 | **DNS/DHCP**          | Typically handled by VMs or external services. | Built-in DNS and DHCP services on VergeOS networks. |
-| **VPN**               | Requires NSX or third-party appliance.      | Native IPSec and WireGuard VPN support (see [VPN Overview](https://app.gitbook.com/s/null/product-guide/vpn/vpn-overview)). |
+| **VPN**               | Requires NSX or third-party appliance.      | Native IPSec and WireGuard VPN support (see [VPN Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/vpn/vpn-overview)). |
 
 **Key Difference**: VergeOS requires jumbo frames (MTU 9192) on Core Fabric Networks for vSAN and node communication, unlike VMware's optional jumbo frame support.
 
-For a detailed guide on planning your network configuration, see [Network Design](https://app.gitbook.com/s/null/implementation-guide/network-design).
+For a detailed guide on planning your network configuration, see [Network Design](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/network-design).
 
 ---
 
@@ -115,7 +115,7 @@ For a detailed guide on planning your network configuration, see [Network Design
 - **VMware**: vSAN is an optional add-on requiring specific licensing and configuration. Datastores are managed separately.
 - **VergeOS**: vSAN is the default storage system, pooling all node drives into tiers. No separate datastore creation is needed—storage is automatically available to VMs and tenants.
 
-**Migration Tip**: Export VMware VMs as OVF/OVA files or use VergeOS’s VMware import tool (see [Import from VMware](https://app.gitbook.com/s/null/product-guide/virtual-machines/import-from-vmware)).
+**Migration Tip**: Export VMware VMs as OVF/OVA files or use VergeOS’s VMware import tool (see [Import from VMware](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-vmware)).
 
 ---
 
@@ -143,14 +143,14 @@ For a detailed guide on planning your network configuration, see [Network Design
 
 1. **Backup VMs**: Export critical VMs as OVF/OVA files or use a backup solution compatible with VergeOS (e.g., Veeam).
 2. **Document Configuration**: Note VM specs (CPU, RAM, disks), network settings (VLANs, IPs), and storage details.
-3. **Check Compatibility**: Review VergeOS’s [Guest OS Compatibility](https://app.gitbook.com/s/null/product-guide/virtual-machines/guest-os-compatibility) for your workloads.
+3. **Check Compatibility**: Review VergeOS’s [Guest OS Compatibility](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/guest-os-compatibility) for your workloads.
 
 ---
 
 ### 2. Set Up VergeOS
 
-1. **Install VergeOS**: Follow the [Installation Guide](https://app.gitbook.com/s/null/implementation-guide/installation-guide) to deploy on at least two nodes (primary and secondary controllers).
-2. **Configure Networks**: Set up Core Fabric Networks (dedicated L2) and an External Network matching your VMware VLANs (see [Network Design](https://app.gitbook.com/s/null/implementation-guide/network-design)).
+1. **Install VergeOS**: Follow the [Installation Guide](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/installation-guide) to deploy on at least two nodes (primary and secondary controllers).
+2. **Configure Networks**: Set up Core Fabric Networks (dedicated L2) and an External Network matching your VMware VLANs (see [Network Design](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/network-design)).
 3. **Verify Storage**: Ensure drives are assigned to appropriate tiers during installation (e.g., SSDs for Tier 0).
 
 ---
@@ -158,8 +158,8 @@ For a detailed guide on planning your network configuration, see [Network Design
 ### 3. Migrate VMs
 
 1. **Import VMs**:
-   - Use VergeOS’s VMware import feature: Upload OVF/OVA files or connect directly to vSphere (see [Import from VMware](https://app.gitbook.com/s/null/product-guide/virtual-machines/import-from-vmware)).
-   - Alternatively, upload disk images to vSAN and create new VMs (see [Uploading Files to vSAN](https://app.gitbook.com/s/null/product-guide/storage/uploading-files-to-vsan)).
+   - Use VergeOS’s VMware import feature: Upload OVF/OVA files or connect directly to vSphere (see [Import from VMware](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-vmware)).
+   - Alternatively, upload disk images to vSAN and create new VMs (see [Uploading Files to vSAN](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/uploading-files-to-vsan)).
 2. **Adjust Network Settings**: Map VMware virtual switches to VergeOS Internal Networks or VLANs.
 3. **Test VMs**: Boot migrated VMs and verify functionality (e.g., network connectivity, application performance).
 
@@ -167,9 +167,9 @@ For a detailed guide on planning your network configuration, see [Network Design
 
 ### 4. Optimize Post-Migration
 
-1. **Leverage Tenants**: Assign VMs to tenants for multi-tenancy or isolation (see [Creating Tenants](https://app.gitbook.com/s/null/product-guide/tenants/create-tenants)).
-2. **Set Up Snapshots**: Configure system snapshots for backup and DR (see [Snapshots Overview](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshots-overview)).
-3. **Monitor Performance**: Use the VergeOS UI to track node and VM metrics (see [Nodes Overview](https://app.gitbook.com/s/null/product-guide/system/nodes-overview)).
+1. **Leverage Tenants**: Assign VMs to tenants for multi-tenancy or isolation (see [Creating Tenants](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/create-tenants)).
+2. **Set Up Snapshots**: Configure system snapshots for backup and DR (see [Snapshots Overview](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshots-overview)).
+3. **Monitor Performance**: Use the VergeOS UI to track node and VM metrics (see [Nodes Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/nodes-overview)).
 
 ---
 
@@ -177,8 +177,8 @@ For a detailed guide on planning your network configuration, see [Network Design
 
 Now that you've migrated your VMware workloads, explore these resources to get the most out of VergeOS:
 
-- [VM Best Practices](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-best-practices) - Optimize your virtual machine configurations.
-- [Network Design](https://app.gitbook.com/s/null/implementation-guide/network-design) - Plan and refine your network architecture.
-- [Snapshots Overview](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshots-overview) - Set up backup and disaster recovery.
-- [Creating Tenants](https://app.gitbook.com/s/null/product-guide/tenants/create-tenants) - Organize workloads with multi-tenancy.
+- [VM Best Practices](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-best-practices) - Optimize your virtual machine configurations.
+- [Network Design](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/network-design) - Plan and refine your network architecture.
+- [Snapshots Overview](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshots-overview) - Set up backup and disaster recovery.
+- [Creating Tenants](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/create-tenants) - Organize workloads with multi-tenancy.
 - [API Guide](https://docs.verge.io/knowledge-base/verge-api-guide/) - Automate management tasks with the VergeOS API.

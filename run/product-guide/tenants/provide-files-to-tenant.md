@@ -22,7 +22,7 @@ categories:
 
 # Providing Files to a Tenant
 
-A service provider can provide files, that are uploaded to the vSAN, to a tenant. For help in the initial upload of files to the parent vSAN, see: [**Uploading Files to the vSAN**](https://app.gitbook.com/s/null/product-guide/storage/uploading-files-to-vsan)
+A service provider can provide files, that are uploaded to the vSAN, to a tenant. For help in the initial upload of files to the parent vSAN, see: [**Uploading Files to the vSAN**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/uploading-files-to-vsan)
 
 ## Provide a File to a Tenant
 
@@ -33,4 +33,4 @@ A service provider can provide files, that are uploaded to the vSAN, to a tenant
 5. **Select a file** from the dropdown list.
 6. Click **Submit** (bottom of page).
 
-The process is near-instant as it is done with a branch command. The file is now available to the tenant within their own [**Files**](https://app.gitbook.com/s/null/product-guide/storage/uploading-files-to-vsan) section.
+The process is near-instant as it is done with a branch command. The file is now available to the tenant within their own [**Files**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/uploading-files-to-vsan) section.

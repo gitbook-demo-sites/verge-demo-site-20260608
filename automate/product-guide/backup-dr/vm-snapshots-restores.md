@@ -48,7 +48,7 @@ The quiesce option provides an **application-consistent snapshot** of a running 
 !!! tip "By default, VM-level snapshots are not configured (VM Snapshot Profile setting="--None--")."
 
 1. From the **VM dashboard**, click **Edit** on the left menu.
-2. In the ***Snapshot profile*** field, select the desired profile from the dropdown list. Instructions for configuring snapshot profiles can be found here: [**Snapshot Profiles (Snapshot Scheduling)**](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshot-profiles).
+2. In the ***Snapshot profile*** field, select the desired profile from the dropdown list. Instructions for configuring snapshot profiles can be found here: [**Snapshot Profiles (Snapshot Scheduling)**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshot-profiles).
 3. Click **Submit** at the bottom of the page.
 
 ## Take a Manual Snapshot of a VM
@@ -57,7 +57,7 @@ The quiesce option provides an **application-consistent snapshot** of a running 
 2. Click **Take Snapshot** on the left menu.
 3. Enter a ***Name*** for the snapshot (required).
 4. Enter a ***Description*** (optional).
-5. The ***Quiesce*** option can be selected to freeze disk activity while the snapshot is being taken. This provides application-consistent backups for VMs. The [**VM Guest Agent**](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-guest-agent) must be installed and registered on VM for quiesced snapshots.
+5. The ***Quiesce*** option can be selected to freeze disk activity while the snapshot is being taken. This provides application-consistent backups for VMs. The [**VM Guest Agent**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-guest-agent) must be installed and registered on VM for quiesced snapshots.
 6. In the ***Expires*** field, select/enter date and time for expiration.
 7. Click **Submit** at the bottom of the page.
 

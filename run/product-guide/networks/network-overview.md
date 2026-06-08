@@ -35,9 +35,9 @@ categories:
 
 New to VergeOS networking? Start here:
 
-1. **[Learn networking concepts](https://app.gitbook.com/s/null/product-guide/networks/network-concepts)** - Understand VergeOS network fundamentals
-2. **[Follow quick start tasks](https://app.gitbook.com/s/null/product-guide/networks/network-quickstart)** - Complete common networking configurations
-3. **[Connect to existing infrastructure](https://app.gitbook.com/s/null/product-guide/networks/connect-lan-wan)** - Integrate with your current network
+1. **[Learn networking concepts](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-concepts)** - Understand VergeOS network fundamentals
+2. **[Follow quick start tasks](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-quickstart)** - Complete common networking configurations
+3. **[Connect to existing infrastructure](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/connect-lan-wan)** - Integrate with your current network
 
 ## Key Features
 
@@ -158,29 +158,29 @@ Establish secure tunnels for remote access and site-to-site connectivity.
 
 ### Getting Started
 
-- [Network Concepts](https://app.gitbook.com/s/null/product-guide/networks/network-concepts)
-- [Quick Start Guide](https://app.gitbook.com/s/null/product-guide/networks/network-quickstart)
-- [Connect to Existing Networks](https://app.gitbook.com/s/null/product-guide/networks/connect-lan-wan)
+- [Network Concepts](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-concepts)
+- [Quick Start Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-quickstart)
+- [Connect to Existing Networks](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/connect-lan-wan)
 
 ### Network Configuration
 
-- [Internal Networks](https://app.gitbook.com/s/null/product-guide/networks/internal-networks)
-- [Network Rules & Firewall](https://app.gitbook.com/s/null/product-guide/networks/network-rules)
-- [VPN Configuration](https://app.gitbook.com/s/null/product-guide/vpn/vpn-overview)
-- [VLAN Configuration](https://app.gitbook.com/s/null/product-guide/networks/create-vlan)
+- [Internal Networks](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/internal-networks)
+- [Network Rules & Firewall](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-rules)
+- [VPN Configuration](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/vpn/vpn-overview)
+- [VLAN Configuration](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/create-vlan)
 
 ### Monitoring & Management
 
-- [Network Dashboards](https://app.gitbook.com/s/null/product-guide/networks/network-dashboards)
-- [Network Diagnostics](https://app.gitbook.com/s/null/product-guide/networks/network-diagnostics)
-- [Troubleshooting](https://app.gitbook.com/s/null/product-guide/networks/net-troubleshooting)
+- [Network Dashboards](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-dashboards)
+- [Network Diagnostics](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-diagnostics)
+- [Troubleshooting](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/net-troubleshooting)
 
 ### Advanced Topics
 
-- [Aliases & IP Management](https://app.gitbook.com/s/null/product-guide/networks/aliases)
-- [Port Mirroring](https://app.gitbook.com/s/null/product-guide/networks/port-mirroring)
-- [WireGuard VPN](https://app.gitbook.com/s/null/product-guide/vpn/wireguard-config)
-- [IPSec Configuration](https://app.gitbook.com/s/null/product-guide/vpn/ipsec)
+- [Aliases & IP Management](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/aliases)
+- [Port Mirroring](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/port-mirroring)
+- [WireGuard VPN](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/vpn/wireguard-config)
+- [IPSec Configuration](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/vpn/ipsec)
 
 ## Support & Professional Services
 

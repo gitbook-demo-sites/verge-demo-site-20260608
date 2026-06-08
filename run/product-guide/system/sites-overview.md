@@ -45,4 +45,4 @@ The Sites Dashboard provides a central location for monitoring and administratio
 
 Additionally, there is a quick-link to directly reach the login page for the site's full web interface.
 
-See [**Add Sites**](https://app.gitbook.com/s/null/product-guide/system/site-dashboard-add-sites) for instructions on adding a site to the Sites Dashboard.
+See [**Add Sites**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/site-dashboard-add-sites) for instructions on adding a site to the Sites Dashboard.

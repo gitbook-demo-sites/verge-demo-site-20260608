@@ -28,4 +28,4 @@ Internal networks can be created as Layer2 or Layer3. To create a layer3 interna
 
 ![internallayer3.png](../screenshots/internallayer3.png)
 
-Full instructions for creating a layer3 internal network can be found at: [**Internal Networks (General Instructions)**](https://app.gitbook.com/s/null/product-guide/networks/internal-networks).
+Full instructions for creating a layer3 internal network can be found at: [**Internal Networks (General Instructions)**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/internal-networks).

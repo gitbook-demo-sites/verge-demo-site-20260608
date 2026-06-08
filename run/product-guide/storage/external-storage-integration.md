@@ -47,7 +47,7 @@ VergeOS can use Fibre Channel LUNs as storage within its vSAN tiers. Each node r
 - LUNs must be unique per node (no shared LUNs between nodes)
 - Disable RAID on the SAN—VergeOS handles redundancy
 - FC HBAs required in at least two nodes
-- See [Using Fibre Channel Storage with vSAN](https://app.gitbook.com/s/null/product-guide/storage/fibre-channel) for details
+- See [Using Fibre Channel Storage with vSAN](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/fibre-channel) for details
 
 ### Option 2: NFS/CIFS Remote Volumes (NAS)
 
@@ -67,7 +67,7 @@ VergeOS NAS service can mount remote NFS and CIFS shares, making external storag
 4. Enter server address and share path
 5. Configure authentication if required
 
-See [NAS Remote Volumes](https://app.gitbook.com/s/null/product-guide/nas/nas-remote-volumes) for detailed steps.
+See [NAS Remote Volumes](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-remote-volumes) for detailed steps.
 
 ### Option 3: In-Guest iSCSI/NFS (Passthrough)
 
@@ -124,7 +124,7 @@ Options for migrating data to VergeOS:
 - **File migration:** Mount external shares via NAS and copy data
 - **Storage vMotion equivalent:** Not available—migrate VMs instead
 
-See [VM Migration Overview](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-migration-overview) for details.
+See [VM Migration Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-migration-overview) for details.
 
 ## Best Practices
 
@@ -156,8 +156,8 @@ Remember that VergeOS provides redundancy at the vSAN level:
 
 ## Related Documentation
 
-- [vSAN Architecture](https://app.gitbook.com/s/null/product-guide/storage/vsan-architecture)
-- [Storage Tiers](https://app.gitbook.com/s/null/product-guide/storage/storage-tiers)
-- [Fibre Channel Storage](https://app.gitbook.com/s/null/product-guide/storage/fibre-channel)
-- [NAS Remote Volumes](https://app.gitbook.com/s/null/product-guide/nas/nas-remote-volumes)
-- [VM Migration Overview](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-migration-overview)
+- [vSAN Architecture](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/vsan-architecture)
+- [Storage Tiers](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/storage-tiers)
+- [Fibre Channel Storage](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/fibre-channel)
+- [NAS Remote Volumes](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-remote-volumes)
+- [VM Migration Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-migration-overview)

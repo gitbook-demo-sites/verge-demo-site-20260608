@@ -65,7 +65,7 @@ See KB article: [How to Create an External Network](https://docs.verge.io/knowle
 
 ### Basic Connectivity Test
 
-1. Verify the network has connectivity using the [Network Diagnostics Tool](https://app.gitbook.com/s/null/product-guide/networks/network-diagnostics)
+1. Verify the network has connectivity using the [Network Diagnostics Tool](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-diagnostics)
 2. Common diagnostic tests include:
     - Ping test to verify basic connectivity
     - DNS lookup to verify name resolution
@@ -100,4 +100,4 @@ If you encounter issues:
 
 - [How to Create an External Network](https://docs.verge.io/knowledge-base/create-external-network/)
 - [Change External Network to Bonded with tagged VLAN](https://docs.verge.io/knowledge-base/change-external-vlan-to-bonded/)
-- [Network Diagnostics Tool](https://app.gitbook.com/s/null/product-guide/networks/network-diagnostics)
+- [Network Diagnostics Tool](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-diagnostics)
