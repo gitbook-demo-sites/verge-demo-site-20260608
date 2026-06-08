@@ -31,7 +31,7 @@ categories:
 
 VergeOS vSAN implements a sophisticated storage tiering system that balances performance, capacity, and cost. The system supports up to 6 tiers (0-5), each optimized for different workloads and data types. This tiered architecture allows organizations to efficiently manage their storage resources by placing data on the most appropriate tier based on performance requirements and access patterns.
 
-For vSAN sizing recommendations, see the [Node Sizing Guide](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/sizing).
+For vSAN sizing recommendations, see the [Node Sizing Guide](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/sizing).
 
 ## Tier Specifications
 

@@ -29,7 +29,7 @@ categories:
 
 ## Overview
 
-The NVIDIA integration with VergeOS enables GPU acceleration for virtual machines through NVIDIA's vGPU and Multi-Instance GPU (MIG) technologies. Multiple VMs can share physical GPU resources while maintaining performance isolation, managed through VergeOS [resource groups](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/device-pass-overview#resource-groups) and policies alongside traditional VMs.
+The NVIDIA integration with VergeOS enables GPU acceleration for virtual machines through NVIDIA's vGPU and Multi-Instance GPU (MIG) technologies. Multiple VMs can share physical GPU resources while maintaining performance isolation, managed through VergeOS [resource groups](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/device-pass-overview#resource-groups) and policies alongside traditional VMs.
 
 !!! warning "Licensing Required"
     NVIDIA vGPU functionality requires a valid **NVIDIA vGPU software license** that matches your selected profile type and workload. See [Supported Hardware](#supported-hardware) for details.
@@ -99,23 +99,23 @@ MIG profiles appear in the VergeOS resource group profile dropdown with a `MIG` 
 
 - **Shared GPU Resources**: Multiple VMs share a single physical GPU, maximizing hardware utilization instead of dedicating a GPU per VM
 - **Live Migration**: Move GPU-accelerated VMs between nodes without downtime (requires matching GPU model and vGPU profile on source and destination nodes)
-- **Tenant Isolation**: Hardware-level separation and performance guarantees between GPU workloads, with support for [passing vGPU devices to tenants](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/nvidia-vgpu-configuration#share-an-nvidia-vgpu-to-a-tenant)
+- **Tenant Isolation**: Hardware-level separation and performance guarantees between GPU workloads, with support for [passing vGPU devices to tenants](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/nvidia-vgpu-configuration#share-an-nvidia-vgpu-to-a-tenant)
 - **Dynamic Allocation**: Scale GPU resources based on workload demands and priorities
 
 !!! tip "Full GPU Passthrough"
-    If your workload requires exclusive access to an entire physical GPU (e.g., for maximum performance or unsupported vGPU hardware), consider [PCI device passthrough](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/generic-pci-passthrough) instead of vGPU.
+    If your workload requires exclusive access to an entire physical GPU (e.g., for maximum performance or unsupported vGPU hardware), consider [PCI device passthrough](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/generic-pci-passthrough) instead of vGPU.
 
 ## Implementation Resources
 
 ### Getting Started
 
-1. Review [Device Passthrough Overview](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/device-pass-overview) for foundation concepts
-2. Follow the [NVIDIA vGPU Configuration](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/nvidia-vgpu-configuration) guide for step-by-step setup
+1. Review [Device Passthrough Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/device-pass-overview) for foundation concepts
+2. Follow the [NVIDIA vGPU Configuration](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/nvidia-vgpu-configuration) guide for step-by-step setup
 
 ### Advanced Configuration
 
-- [VM Best Practices](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/vm-best-practices) — Performance optimization guidelines
-- [Maintenance Mode](https://app.gitbook.com/s/XSPACE_RUN/product-guide/operations/maintenance-mode) — Required when rebooting nodes for driver installation
+- [VM Best Practices](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-best-practices) — Performance optimization guidelines
+- [Maintenance Mode](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/maintenance-mode) — Required when rebooting nodes for driver installation
 
 ### External Documentation
 

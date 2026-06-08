@@ -83,7 +83,7 @@ Statistics shown in sync dashboard listings and log entries. These numbers updat
 
 Subscriptions are available from both the sending system and the receiving system to oversee sync activity.
 
-!!! info "Reference the [**Subscriptions**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/subscriptions-overview) page for more information about creating and using subscriptions."
+!!! info "Reference the [**Subscriptions**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/subscriptions-overview) page for more information about creating and using subscriptions."
 
 ### Example Subscriptions
 

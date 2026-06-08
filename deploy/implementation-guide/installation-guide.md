@@ -32,7 +32,7 @@ categories:
 The VergeOS installation is a single [bootable ISO image](install-media.md) containing all packages needed for the complete system.
 
 This document provides general instructions for installing a VergeOS system.
-For production systems, use datacenter-quality hardware and follow our reference architectures located in the [Implementation Guide](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/intro).
+For production systems, use datacenter-quality hardware and follow our reference architectures located in the [Implementation Guide](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/intro).
 
 ### Installation Process
 
@@ -49,8 +49,8 @@ graph LR
 
 Before you proceed with the installation please make sure you've reviewed the following documents:
   
-* [Pre-Install Checklist](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/pre-installation)
-* [Bootable Media](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/install-media)
+* [Pre-Install Checklist](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/pre-installation)
+* [Bootable Media](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/install-media)
   
 ---
 
@@ -197,7 +197,7 @@ The main dashboard for your new system will display.  Status indicators should a
 
     **N+2** configurations are also supported, maintaining three copies of each data block across the system.
 
-    N+2 requires **3 controller nodes** to be installed. For more details on redundancy levels, requirements, and use cases, see [Understanding vSAN Redundancy Levels](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/vsan-redundancy-levels).
+    N+2 requires **3 controller nodes** to be installed. For more details on redundancy levels, requirements, and use cases, see [Understanding vSAN Redundancy Levels](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/vsan-redundancy-levels).
 
     After all three controller nodes have been installed, a **reboot of all 3 nodes is required** to activate the N+2 redundancy level.
 
@@ -214,13 +214,13 @@ The main dashboard for your new system will display.  Status indicators should a
 
 Additional nodes can be installed as needed. These nodes can be:
 
-* [**Scale-out**](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/scale-out-nodes)
-* [**Compute-only**](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/compute-nodes)
-* [**Storage-only**](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/storage-nodes)
+* [**Scale-out**](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/scale-out-nodes)
+* [**Compute-only**](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/compute-nodes)
+* [**Storage-only**](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/storage-nodes)
 
 ## Post-Installation Steps
 
-When node installations are complete, see [**Post Installation**](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/post-installation) for next steps.
+When node installations are complete, see [**Post Installation**](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/post-installation) for next steps.
 
 ---
 

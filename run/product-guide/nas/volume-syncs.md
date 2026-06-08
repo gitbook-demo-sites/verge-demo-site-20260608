@@ -29,7 +29,7 @@ categories:
 
 # Volume Syncs
 
-Volume syncs allow for synchronizing data between two volumes. A volume sync can be used as a one-time transfer or recurring in order to synchronize data on a regular schedule. Volume syncs can involve both [**Remote Volumes**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/nas/nas-remote-volumes) and [**Local Volumes**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/nas/nas-local-volumes), providing the ability to:
+Volume syncs allow for synchronizing data between two volumes. A volume sync can be used as a one-time transfer or recurring in order to synchronize data on a regular schedule. Volume syncs can involve both [**Remote Volumes**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-remote-volumes) and [**Local Volumes**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-local-volumes), providing the ability to:
 
 - Easily transfer an external file system into VergeOS storage.
 - Use VergeOS as a target for file-level backups of an external system.
@@ -64,7 +64,7 @@ Volume syncs allow for synchronizing data between two volumes. A volume sync can
 
 15. Select ***Destination Volume*** from the dropdown list. (can be either a local volume or remote volume.)
 16. Specify a ***Destination Start Directory*** (or leave blank to sync to the root of the volume).
-17. ***Start Profile*** option should be enabled to provide a recurring, regularly-scheduled sync; disable Start Profile for a one-time sync or a sync that can only be started manually. Select a ***Start Time Profile*** from the dropdown list **-or-** leave the **-- Default -** setting to utilize the start time of the built-in **"NAS Volume Syncs"** Profile. The ***Start Time Profile*** determines when the recurring sync will start. [Snapshot Profiles](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/snapshot-profiles) are used to control volume sync Start Profiles.
+17. ***Start Profile*** option should be enabled to provide a recurring, regularly-scheduled sync; disable Start Profile for a one-time sync or a sync that can only be started manually. Select a ***Start Time Profile*** from the dropdown list **-or-** leave the **-- Default -** setting to utilize the start time of the built-in **"NAS Volume Syncs"** Profile. The ***Start Time Profile*** determines when the recurring sync will start. [Snapshot Profiles](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshot-profiles) are used to control volume sync Start Profiles.
 !!! warning "The *Start Time Profile* setting determines the start time of the sync only; it does not control snapshots for the volume!"
 
 18. **Advanced Options**

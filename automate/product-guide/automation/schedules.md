@@ -61,8 +61,8 @@ VergeOS includes a set of commonly-used default schedules. You can also create y
 
 ## Related Guides
 
-- [Task Engine Overview](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/task-engine)  
-- [Creating Tasks](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/create-tasks)  
+- [Task Engine Overview](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/task-engine)  
+- [Creating Tasks](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/create-tasks)  
 
 ---
 

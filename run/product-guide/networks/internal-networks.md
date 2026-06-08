@@ -29,7 +29,7 @@ categories:
 
 # Internal Networks (General Instructions)
 
-Internal networks are VNets originated within VergeOS; an internal network can be created as [**Layer3**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/internal-layer3) (typically recommended) or [**Layer2**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/internal-layer2).
+Internal networks are VNets originated within VergeOS; an internal network can be created as [**Layer3**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/internal-layer3) (typically recommended) or [**Layer2**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/internal-layer2).
 
 ## Create an Internal Network
 
@@ -45,7 +45,7 @@ Internal networks are VNets originated within VergeOS; an internal network can b
 10. Select a **Port Mirroring** setting. The default value is ***Off***. Port mirroring can be enabled to replicate network traffic to a VM NIC, allowing packet analysis:
     - ***North/South*** - only mirror traffic that passes through the router
     - ***East/West*** - mirror all traffic, including traffic between VMs in the network and traffic through the router
-!!! info "East/West port mirroring is typically only recommended for short durations. See: [**Port Mirroring**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/port-mirroring) for additional instructions."
+!!! info "East/West port mirroring is typically only recommended for short durations. See: [**Port Mirroring**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/port-mirroring) for additional instructions."
 
 11. Select **IP Address Type**:
     - ***static (default)*** - creates a layer 3 network with routing, DNS, DHCP features available

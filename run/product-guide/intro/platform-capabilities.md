@@ -33,106 +33,106 @@ categories:
 
 This comprehensive guide outlines all major capabilities available in the VergeOS platform. Each section provides an overview of key features with links to detailed implementation guides.
 
-Whether you're evaluating VergeOS for your organization or planning your implementation, this guide serves as your roadmap to understanding what's possible with the platform. This guide assumes you're familiar with core VergeOS concepts like Virtual Data Centers (VDCs), the unified architecture, and basic terminology. If you're new to VergeOS, start with [What is VergeOS](https://app.gitbook.com/s/XSPACE_RUN/product-guide/intro/what-is-vergeos) to build your foundational understanding.
+Whether you're evaluating VergeOS for your organization or planning your implementation, this guide serves as your roadmap to understanding what's possible with the platform. This guide assumes you're familiar with core VergeOS concepts like Virtual Data Centers (VDCs), the unified architecture, and basic terminology. If you're new to VergeOS, start with [What is VergeOS](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/intro/what-is-vergeos) to build your foundational understanding.
 
 ---
 
 ## Distributed Storage (VergeFS)
 
-**[Get an overview of VergeOS storage solutions →](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/overview)**
+**[Get an overview of VergeOS storage solutions →](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/overview)**
 
-* **[vSAN (VergeFS)](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/vsan-architecture)** - Utilize integrated, resilient, distributed storage with global deduplication and automatic tiering
-* **[Files](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/uploading-files-to-vsan)** - Easily upload and manage your individual ISOs, disk images, logos, and other files
-* **[NAS (Network Attached Storage) Service](https://app.gitbook.com/s/XSPACE_RUN/product-guide/nas/overview)** - Establish file-level storage and access on your VergeFS distributed storage
+* **[vSAN (VergeFS)](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/vsan-architecture)** - Utilize integrated, resilient, distributed storage with global deduplication and automatic tiering
+* **[Files](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/uploading-files-to-vsan)** - Easily upload and manage your individual ISOs, disk images, logos, and other files
+* **[NAS (Network Attached Storage) Service](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/overview)** - Establish file-level storage and access on your VergeFS distributed storage
 
 ## Backup and Disaster Recovery (BC/DR)
 
-**[Learn about VergeOS Backup and Recovery features →](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/overview)** 
+**[Learn about VergeOS Backup and Recovery features →](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/overview)** 
 
-* **[Snapshots](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/snapshots-overview)** - Protect your data and operations with restore points for the entire system and individual tenants/VMs/NAS volumes
-* **[Site Syncs](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/sync-configuration)** - Replicate copies of your complete system off-site, ready for quick recovery
+* **[Snapshots](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshots-overview)** - Protect your data and operations with restore points for the entire system and individual tenants/VMs/NAS volumes
+* **[Site Syncs](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/sync-configuration)** - Replicate copies of your complete system off-site, ready for quick recovery
 
 ## Compute Virtualization (VergeHV)
 
-**[Discover simplified workload deployment and administration →](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/overview)**
+**[Discover simplified workload deployment and administration →](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/overview)**
 
-* **[Remote Console](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/vm-remote-console)** - Obtain real-time, in-guest access to your workloads directly from the VergeOS unified user interface
-* **[Live VM Migrations](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/live-migrations#vm-live-migration)** - Understand VergeOS resiliency that automatically handles VM migrations during maintenance, updates, and after hardware failures (sufficient resources required)
-* **[Manual VM Migrations](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/vm-manual-migration)** - Manually move workloads as needed for optimal resource utilization
-* **[Resource Assignment (Device Passthrough)](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/device-pass-overview)** - Efficiently leverage host hardware within your virtual machines:
-    - **[NVIDIA vGPU](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/nvidia-vgpu-configuration)** - Virtualize GPU resources for high-performance computing workloads
-    - **[Direct PCI Passthrough](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/generic-pci-passthrough)** - Provide VMs with direct access to physical hardware devices
-    - **[SRIOV NICs](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/sriov-nics)** - Enable high-performance network virtualization with hardware acceleration
-    - **[USB Passthrough](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/usb-passthrough)** - Connect physical USB devices directly to virtual machines
-* **[VM Recipes](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/vm-recipes)** - Automate and streamline your workload deployments with customizable templates
+* **[Remote Console](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-remote-console)** - Obtain real-time, in-guest access to your workloads directly from the VergeOS unified user interface
+* **[Live VM Migrations](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/live-migrations#vm-live-migration)** - Understand VergeOS resiliency that automatically handles VM migrations during maintenance, updates, and after hardware failures (sufficient resources required)
+* **[Manual VM Migrations](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-manual-migration)** - Manually move workloads as needed for optimal resource utilization
+* **[Resource Assignment (Device Passthrough)](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/device-pass-overview)** - Efficiently leverage host hardware within your virtual machines:
+    - **[NVIDIA vGPU](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/nvidia-vgpu-configuration)** - Virtualize GPU resources for high-performance computing workloads
+    - **[Direct PCI Passthrough](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/generic-pci-passthrough)** - Provide VMs with direct access to physical hardware devices
+    - **[SRIOV NICs](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/sriov-nics)** - Enable high-performance network virtualization with hardware acceleration
+    - **[USB Passthrough](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/usb-passthrough)** - Connect physical USB devices directly to virtual machines
+* **[VM Recipes](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/vm-recipes)** - Automate and streamline your workload deployments with customizable templates
 * **[Golden VM Images (Non-persistent VM Drives)](https://docs.verge.io/knowledge-base/making-a-nonpersistent-vm/)** - Standardize VM deployments using a "master copy" of pre-configured VM drives for compliance, security, and management optimization
-* **[Embedded VDI Desktop](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/vdi-overview)** - Use built-in VDI functionality to provide virtual desktops
+* **[Embedded VDI Desktop](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vdi-overview)** - Use built-in VDI functionality to provide virtual desktops
 
 !!! tip "VDI Integration"
-    **[Inuvika Integration with VergeOS](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/tools-integrations/inuvika)** provides complimentary, advanced VDI functionality in conjunction with VergeOS efficient virtualization.
+    **[Inuvika Integration with VergeOS](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/inuvika)** provides complimentary, advanced VDI functionality in conjunction with VergeOS efficient virtualization.
 
 ## Importing Existing Workloads into VergeOS
 
-**[Determine your best method for migrating workloads from other platforms →](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/vm-migration-overview)**
+**[Determine your best method for migrating workloads from other platforms →](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-migration-overview)**
 
-* **[VMware VM Imports](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/import-from-vmware)** - Import entire VMware workload environments non-disruptively
+* **[VMware VM Imports](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-vmware)** - Import entire VMware workload environments non-disruptively
 * **[VergeOS Clone Utility](https://docs.verge.io/knowledge-base/importing-a-physicalvirtual-machine-into-vergeio/)** - Conveniently import individual physical or virtual machines with this highly-compatible bootable utility
-* **[Import from Media Images](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/import-from-upload)** - Upload individual VM disk and configuration files (e.g., vmdk/vhd/vhdx, ovf/ova, qcow/qcow2, vmx, raw) to VergeFS for importing workloads
-* **[NAS Volume Imports](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/import-from-nas)** - Perform individual or batch VM imports directly from source storage
+* **[Import from Media Images](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-upload)** - Upload individual VM disk and configuration files (e.g., vmdk/vhd/vhdx, ovf/ova, qcow/qcow2, vmx, raw) to VergeFS for importing workloads
+* **[NAS Volume Imports](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-nas)** - Perform individual or batch VM imports directly from source storage
 
 !!! tip "Enterprise Integration"
-    **[Cirrus Data Integration with VergeOS](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/tools-integrations/cirrus-data)** - Cirrus-VergeOS integration provides auxiliary tools that automate and accelerate large-scale imports to VergeOS from any cloud or on-premises platform.
+    **[Cirrus Data Integration with VergeOS](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/cirrus-data)** - Cirrus-VergeOS integration provides auxiliary tools that automate and accelerate large-scale imports to VergeOS from any cloud or on-premises platform.
 
 ## Multi-Tenancy
 
 Tenants allow you to segregate system resources into secure enclaves for different customers, business groups, and projects  
 
-**[Explore How to Use Tenants →](https://app.gitbook.com/s/XSPACE_RUN/product-guide/tenants/overview)**
+**[Explore How to Use Tenants →](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/overview)**
 
-* **[Tenant Recipes](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/tenant-recipes)** - Accelerate and standardize tenant deployment for efficiency, compliance, and self-serve systems
-* **[Tenant-level Reporting for Billing](https://app.gitbook.com/s/XSPACE_RUN/product-guide/tenants/tenant-usagereports)** - Track resource usage per tenant to facilitate billing, auditing, and/or planning purposes
-* **[Tenant Snapshots](https://app.gitbook.com/s/XSPACE_RUN/product-guide/tenants/tenant-snapshots)** - Restore any tenant from your complete-system system snapshot; while each tenant can also have the ability to control their own individual snapshot and retention schedule
+* **[Tenant Recipes](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/tenant-recipes)** - Accelerate and standardize tenant deployment for efficiency, compliance, and self-serve systems
+* **[Tenant-level Reporting for Billing](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/tenant-usagereports)** - Track resource usage per tenant to facilitate billing, auditing, and/or planning purposes
+* **[Tenant Snapshots](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/tenant-snapshots)** - Restore any tenant from your complete-system system snapshot; while each tenant can also have the ability to control their own individual snapshot and retention schedule
 
 ## Software-Defined Networking (VergeFabric)
 
 VergeFabric delivers software-defined networking (SDN) for simplified and flexible network management
 
-**[Get Familiar with VergeFabric Basics →](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/network-overview)**
+**[Get Familiar with VergeFabric Basics →](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-overview)**
 
-* **[Virtual Networks](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/internal-networks)** - Create up to thousands of virtual networks and optionally use embedded IP management for DHCP, DNS, firewall, routing, NAT/PAT
+* **[Virtual Networks](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/internal-networks)** - Create up to thousands of virtual networks and optionally use embedded IP management for DHCP, DNS, firewall, routing, NAT/PAT
 * **[Micro Segmentation](https://docs.verge.io/knowledge-base/how-to-achieve-network-micro-segmentation-on-vergeos/)** - Segment and isolate workloads at the VDC (tenant) level, by groups or at the individual workload (VM) level
-* **[Fine-tuned Network Control (Rules)](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/network-rules)** - Use network rules for very precise control of traffic at each virtual network (routes, translations (NAT/PAT), and security policies)
-* **[Granular Traffic Monitoring](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/tracking-net-statistics)** - Measure and analyze network traffic per network rule for performance optimization
-* **[VPN](https://app.gitbook.com/s/XSPACE_RUN/product-guide/vpn/vpn-overview)** - Establish secure-tunnel remote access and site-to-site connections using WireGuard and IPsec
-* **[Integrated Network Diagnostics](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/network-diagnostics)** - Utilize convenient and comprehensive network troubleshooting tools for each network, directly from the VergeOS dashboard
-* **[Port Mirroring Option](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/port-mirroring)** - Duplicate all of a network's traffic to a VM for in-depth monitoring or analysis with your tool of choice
+* **[Fine-tuned Network Control (Rules)](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-rules)** - Use network rules for very precise control of traffic at each virtual network (routes, translations (NAT/PAT), and security policies)
+* **[Granular Traffic Monitoring](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/tracking-net-statistics)** - Measure and analyze network traffic per network rule for performance optimization
+* **[VPN](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/vpn/vpn-overview)** - Establish secure-tunnel remote access and site-to-site connections using WireGuard and IPsec
+* **[Integrated Network Diagnostics](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-diagnostics)** - Utilize convenient and comprehensive network troubleshooting tools for each network, directly from the VergeOS dashboard
+* **[Port Mirroring Option](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/port-mirroring)** - Duplicate all of a network's traffic to a VM for in-depth monitoring or analysis with your tool of choice
 
 ## User Management
 
-* **[Granular User Permissions](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/permissions)** - Configure precise access control for all your VergeOS assets with role-based permissions
-* **[Multifactor Authentication (MFA)](https://app.gitbook.com/s/XSPACE_RUN/product-guide/auth/multifactor-auth)** - Ensure only authorized users access your systems and data by requiring an added layer of authentication
-* **[OIDC Identity Management](https://app.gitbook.com/s/XSPACE_RUN/product-guide/auth/oidc-apps-overview)** - Centralize user identity administration across multiple VergeOS systems
-* **[Third-party Identity Integration](https://app.gitbook.com/s/XSPACE_RUN/product-guide/auth/auth-sources-overview)** - Employ your existing OAuth2 management systems (such as Okta, GitLab, Azure AD/Entra, or Google Cloud Identity) for VergeOS logins
+* **[Granular User Permissions](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/permissions)** - Configure precise access control for all your VergeOS assets with role-based permissions
+* **[Multifactor Authentication (MFA)](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/auth/multifactor-auth)** - Ensure only authorized users access your systems and data by requiring an added layer of authentication
+* **[OIDC Identity Management](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/auth/oidc-apps-overview)** - Centralize user identity administration across multiple VergeOS systems
+* **[Third-party Identity Integration](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/auth/auth-sources-overview)** - Employ your existing OAuth2 management systems (such as Okta, GitLab, Azure AD/Entra, or Google Cloud Identity) for VergeOS logins
 
 ## Monitoring and Alerting
 
 * **[Comprehensive Dashboard System](/product-guide/ui-overview)** - Gain operational oversight of your entire system from VergeOS's intuitive, overview-to-detail dashboard navigation model
-* **[Subscriptions](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/subscriptions-overview)** - Create customized, automated alerts and reports to be delivered to appropriate personnel and/or external monitoring systems
+* **[Subscriptions](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/subscriptions-overview)** - Create customized, automated alerts and reports to be delivered to appropriate personnel and/or external monitoring systems
 * **[Third-Party Log Support](https://docs.verge.io/knowledge-base/system-logs/#enabling-3rd-party-logging)** - Automatically forward VergeOS log data, in your preferred format, to external log management solutions, such as Graylog
 
 ## Automation
 
-* **[VergeOS Recipes](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/recipes-overview)** - Create customizable templates for accelerated workload and VDC deployments while enforcing important policies
-* **[VergeOS Task Engine](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/create-tasks)** - Establish automatic operations to trigger based on schedule and/or events for streamlined operations
+* **[VergeOS Recipes](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/recipes-overview)** - Create customizable templates for accelerated workload and VDC deployments while enforcing important policies
+* **[VergeOS Task Engine](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/create-tasks)** - Establish automatic operations to trigger based on schedule and/or events for streamlined operations
 * **[API-First Design](https://docs.verge.io/knowledge-base/verge-api-guide/)** - Optimize operations with programmatic automation of VergeOS functions through comprehensive RESTful APIs
 
 ## Integrations
 
-* **[Cirrus Data Integration with VergeOS](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/tools-integrations/cirrus-data)** - Harness enterprise integration for highly automated and accelerated large-scale transitions from other platforms
+* **[Cirrus Data Integration with VergeOS](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/cirrus-data)** - Harness enterprise integration for highly automated and accelerated large-scale transitions from other platforms
 * **[VMware Connector](https://docs.verge.io/knowledge-base/vmwarebackupdrguide/)** - Backup VMware workloads to VergeOS resilient storage for BC/DR purposes or for import
-* **[Inuvika](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/tools-integrations/inuvika)** - Leverage the advantages of VergeOS combined with Inuvika's advanced virtual desktop infrastructure (VDI) features
-* **[Storware](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/tools-integrations/storware-backup-recovery)** - Utilize Storware integration to layer additional enterprise backup functionality and/or comply with mandatory third-party backup requirements
-* **[Terraform Provider](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/tools-integrations/terraform-provider)** - Manage VergeOS as part of your infrastructure-as-code (IaC) workflows
+* **[Inuvika](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/inuvika)** - Leverage the advantages of VergeOS combined with Inuvika's advanced virtual desktop infrastructure (VDI) features
+* **[Storware](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/storware-backup-recovery)** - Utilize Storware integration to layer additional enterprise backup functionality and/or comply with mandatory third-party backup requirements
+* **[Terraform Provider](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/terraform-provider)** - Manage VergeOS as part of your infrastructure-as-code (IaC) workflows
 * **[Export Volumes](https://docs.verge.io/knowledge-base/configuring-a-vm-export-volume/)** - Easily extract VergeOS VMs for third-party backup, compliance, or migration purposes
 * **[VergeOS API](https://docs.verge.io/knowledge-base/verge-api-guide/)** - Integrate with external systems, such as ticketing, billing, or alerting to streamline workflows with VergeOS's developer-ready, complete-access API
 

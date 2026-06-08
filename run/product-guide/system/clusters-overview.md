@@ -90,7 +90,7 @@ Clusters are designed with scalability in mind:
 Clusters are created during the VergeOS installation process with default settings, including Default CPU type based on detected CPU hardware. 
 
 ### Customization and Optimization
-After installation, cluster settings can be adjusted through the VergeOS user interface to tune performance, security and operational settings.  See **[Cluster Settings](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/cluster-settings)** for detailed cluster configuration information.
+After installation, cluster settings can be adjusted through the VergeOS user interface to tune performance, security and operational settings.  See **[Cluster Settings](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/cluster-settings)** for detailed cluster configuration information.
 
 
 ## Best Practices

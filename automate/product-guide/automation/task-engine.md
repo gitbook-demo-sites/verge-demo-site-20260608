@@ -72,9 +72,9 @@ This modular design enables scalable, reusable automation tailored to your envir
 
 ## Related Guides
 
-- [Creating Automated Tasks](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/create-tasks)  
-- [Using Webhooks](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/webhooks) 
-- [Defining Schedules](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/schedules) 
+- [Creating Automated Tasks](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/create-tasks)  
+- [Using Webhooks](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/webhooks) 
+- [Defining Schedules](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/schedules) 
 
 ---
 

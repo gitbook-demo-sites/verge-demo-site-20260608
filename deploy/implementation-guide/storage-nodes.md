@@ -38,7 +38,7 @@ This guide will help ensure that your addition of Storage Only nodes is executed
 
 Ensure the following before starting the installation of a Scale-out node:
 
-* The 2 node cluster from the [Installation Guide](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/installation-guide) is installed and fully operational.
+* The 2 node cluster from the [Installation Guide](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/installation-guide) is installed and fully operational.
 * All network configurations, including VLANs and physical NIC assignments, have been set up according to the main installation guide.
 
 !!! warning "If this will be the first node in a new storage cluster"

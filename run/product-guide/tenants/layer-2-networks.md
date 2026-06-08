@@ -204,7 +204,7 @@ Tenant administrators attach VMs to the passed-through VLAN by selecting the app
 
 ### Network Placement Best Practices
 
-Set the gateway of internal VM networks to the **External** network. For a new VM Network, the Gateway field is in the wizard. For existing networks, the gateway is a default gateway under the rules section. See [Internal Networks](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/internal-networks) for more information.
+Set the gateway of internal VM networks to the **External** network. For a new VM Network, the Gateway field is in the wizard. For existing networks, the gateway is a default gateway under the rules section. See [Internal Networks](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/internal-networks) for more information.
 
 - **Isolation:** Consider which VMs truly need Layer 2 access vs. those that can use internal tenant networks
 
@@ -339,8 +339,8 @@ After successfully configuring Tenant Layer 2 Networks, consider these related t
 ### Related Documentation
 
 - [Provide Layer 2 Access to a Tenant (Virtual Switch Ports)](https://docs.verge.io/knowledge-base/provide-layer2-to-tenant/) - Alternative method for multi-VLAN scenarios
-- [Configuring VLANs](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/create-vlan) - Creating VLAN networks at the host level
-- [Network Concepts](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/network-concepts) - Understanding VergeOS networking fundamentals
-- [Tenant Overview](https://app.gitbook.com/s/XSPACE_RUN/product-guide/tenants/overview) - Comprehensive tenant networking guide
-- [Network Troubleshooting](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/net-troubleshooting) - Advanced network diagnostic procedures
+- [Configuring VLANs](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/create-vlan) - Creating VLAN networks at the host level
+- [Network Concepts](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-concepts) - Understanding VergeOS networking fundamentals
+- [Tenant Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/overview) - Comprehensive tenant networking guide
+- [Network Troubleshooting](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/net-troubleshooting) - Advanced network diagnostic procedures
 

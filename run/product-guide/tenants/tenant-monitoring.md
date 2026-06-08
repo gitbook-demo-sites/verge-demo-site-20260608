@@ -93,4 +93,4 @@ The Subscription engine allows you to customize how and when you receive reports
 
 ![singletenantsubscription-report](../screenshots/singletenantsubscription-report.png)
 
-There are many options available when creating subscriptions. For more information see: [**Subscriptions-Overview**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/subscriptions-overview)
+There are many options available when creating subscriptions. For more information see: [**Subscriptions-Overview**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/subscriptions-overview)

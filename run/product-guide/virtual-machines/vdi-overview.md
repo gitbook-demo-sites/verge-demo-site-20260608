@@ -24,6 +24,6 @@ categories:
 
 VDI functionality allows for hosting virtual desktops and provides an individualized VDI Dashboard for each user to access virtual desktops.
 
-* Help for the **VDI User** can be found at: [**Instructions for the VDI User**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/vdi-user)
-* Help for the **VDI Administrator** can be found at: [**Instructions for the VDI Admin**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/vdi-administrator)
+* Help for the **VDI User** can be found at: [**Instructions for the VDI User**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vdi-user)
+* Help for the **VDI Administrator** can be found at: [**Instructions for the VDI Admin**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vdi-administrator)
 

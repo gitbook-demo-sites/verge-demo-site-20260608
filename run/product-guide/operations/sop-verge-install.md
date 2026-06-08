@@ -64,7 +64,7 @@ Complete these steps prior to scheduling installation:
 - [ ] Confirm hardware meets minimum requirements
 
 !!! note "Hardware Documentation"
-    Refer to [VergeOS sizing documentation](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/sizing) for current and detailed requirements.
+    Refer to [VergeOS sizing documentation](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/sizing) for current and detailed requirements.
 
   - [ ] **CPU Requirements:**
     - [ ] 64bit CPU with hardware virtualization support
@@ -95,13 +95,13 @@ Complete these steps prior to scheduling installation:
 
 ### Installation Media and Documentation
 
-- [ ] Create install media per [VergeOS documentation](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/install-media)
+- [ ] Create install media per [VergeOS documentation](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/install-media)
   - [ ] Test boot media to verify functionality
 
 - [ ] Document and Create all network requirements
 
 !!! note "Network Documentation"
-    Refer to [VergeOS network design documentation](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/network-design) for current and detailed network requirements.
+    Refer to [VergeOS network design documentation](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/network-design) for current and detailed network requirements.
 
   - [ ] **Core Network Configuration:**
     - [ ] Core Network VLAN1 Created and Documented

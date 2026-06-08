@@ -88,7 +88,7 @@ Schedule triggers allow tasks to run at a specific time or on a recurring basis.
 2. Click **New** on the left menu.
 
 3. Select a **Schedule** from the dropdown list.  
-   VergeOS includes several pre-installed schedules. To create a custom schedule, see the **[Schedules Guide](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/schedules)**.
+   VergeOS includes several pre-installed schedules. To create a custom schedule, see the **[Schedules Guide](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/schedules)**.
 
 4. Click **Submit** to save the schedule trigger. 
  It will now be associated with the selected task.
@@ -97,6 +97,6 @@ Schedule triggers allow tasks to run at a specific time or on a recurring basis.
 
 ## Related Guides
 
-- [Task Engine Overview](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/task-engine)  
-- [Using Webhooks](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/webhooks) 
-- [Defining Schedules](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/schedules) 
+- [Task Engine Overview](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/task-engine)  
+- [Using Webhooks](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/webhooks) 
+- [Defining Schedules](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/schedules) 

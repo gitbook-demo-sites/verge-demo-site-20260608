@@ -34,17 +34,17 @@ Recipes empower you to streamline and expedite your tenant and VM deployments. A
 
 New to VergeOS recipes? Start here:
 
-1. **[Explore the Recipe Marketplace](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/vm-recipes#included-vm-recipes)** - Browse ready-to-use VM recipes
-2. **[Create your first VM recipe](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/vm-recipes)** - Build a custom template from an existing VM
-3. **[Organize with catalogs](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/recipes-organization)** - Set up repositories for recipe management
+1. **[Explore the Recipe Marketplace](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/vm-recipes#included-vm-recipes)** - Browse ready-to-use VM recipes
+2. **[Create your first VM recipe](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/vm-recipes)** - Build a custom template from an existing VM
+3. **[Organize with catalogs](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/recipes-organization)** - Set up repositories for recipe management
 
 ## Key Features
 
-* **Out-of-the-box Samples:** The [**Recipe Marketplace**](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/vm-recipes#included-vm-recipes) is automatically available with ready-to-use recipes that can also be cloned and fine-tuned to fit your specific requirements.
-* **Recipe Exchange:** [**Share Recipes**](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/recipes-organization#sharing-recipes) with tenants and between VergeOS systems. 
+* **Out-of-the-box Samples:** The [**Recipe Marketplace**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/vm-recipes#included-vm-recipes) is automatically available with ready-to-use recipes that can also be cloned and fine-tuned to fit your specific requirements.
+* **Recipe Exchange:** [**Share Recipes**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/recipes-organization#sharing-recipes) with tenants and between VergeOS systems. 
 * **Organization/Access control:** Effortlessly organize recipes into unlimited catalogs, each with configurable access settings.
 * **Expansive Options:** Questions added to a recipe allow you to collect all types of input (boolean, text, dropdown lists, IP addresses, network selections, etc.) that can be used to tailor each tenant/VM instance.
-* **Guest OS Customizations:** [**Cloud-Init and Cloudbase-init Integration**](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/vm-recipes#advanced-usage) enable you to use open-source and/or custom scripts to automate configuration within a guest operating system from variable inputs (set username/password, install applications, configure static IP or DHCP settings, specify hostname, etc.)
+* **Guest OS Customizations:** [**Cloud-Init and Cloudbase-init Integration**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/vm-recipes#advanced-usage) enable you to use open-source and/or custom scripts to automate configuration within a guest operating system from variable inputs (set username/password, install applications, configure static IP or DHCP settings, specify hostname, etc.)
 
 ## Recipe Types
 
@@ -103,11 +103,11 @@ Deploy complete virtual data centers with predefined networks, VMs, and configur
 ## Related Documentation
 
 ### Getting Started
-- [Recipe Organization (Repositories/Catalogs)](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/recipes-organization)
-- [VM Recipes](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/vm-recipes)
-- [Tenant Recipes](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/tenant-recipes)
+- [Recipe Organization (Repositories/Catalogs)](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/recipes-organization)
+- [VM Recipes](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/vm-recipes)
+- [Tenant Recipes](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/tenant-recipes)
 
 ### Advanced Topics
-- [Cloud-Init Integration](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/vm-recipes#advanced-usage)
-- [Recipe Sharing Between Systems](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/recipes-organization#sharing-recipes)
-- [Recipe Marketplace](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/vm-recipes#included-vm-recipes)
+- [Cloud-Init Integration](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/vm-recipes#advanced-usage)
+- [Recipe Sharing Between Systems](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/recipes-organization#sharing-recipes)
+- [Recipe Marketplace](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/vm-recipes#included-vm-recipes)

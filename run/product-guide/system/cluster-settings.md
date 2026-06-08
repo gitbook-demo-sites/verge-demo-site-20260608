@@ -32,7 +32,7 @@ categories:
 
 The *Cluster Settings* form enables you to configure key parameters relating to performance, security, allocation, thermal monitoring, and swap. While the majority of default settings are appropriate for most environments, it's recommended to review them when creating a new cluster and periodically thereafter to ensure alignment with your organization's policies and operational requirements.
 
-!!! tip "Most cluster setting changes will require a reboot of each cluster node.  A message will appear at the top of the cluster dashboard when a reboot is necessary.  Select the *Need Restart* option (within the reboot/restart message at the top of the cluster dashboard or left menu option) to manage reboots of the cluster nodes.  Always follow proper [Maintenance Mode procedures](https://app.gitbook.com/s/XSPACE_RUN/product-guide/operations/maintenance-mode) when rebooting nodes to avoid workload disruptions." 
+!!! tip "Most cluster setting changes will require a reboot of each cluster node.  A message will appear at the top of the cluster dashboard when a reboot is necessary.  Select the *Need Restart* option (within the reboot/restart message at the top of the cluster dashboard or left menu option) to manage reboots of the cluster nodes.  Always follow proper [Maintenance Mode procedures](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/maintenance-mode) when rebooting nodes to avoid workload disruptions." 
 
 ## Accessing Cluster Settings
 

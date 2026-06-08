@@ -38,4 +38,4 @@ categories:
 
 !!! success "A *--View More--* link is available at the bottom of the *Child Import Jobs* section to view additional child jobs when all do not fit on a single page."
 
-!!! info "A UUID (rather than the VM name) displayed in the VM field indicates that a VM with that unique identifier already existed in the VergeOS system (e.g. previously imported). If a UUID is displayed, the VM was imported as a [snapshot](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/snapshots-overview) to avoid inadvertently overwriting an existing VergeOS VM."
+!!! info "A UUID (rather than the VM name) displayed in the VM field indicates that a VM with that unique identifier already existed in the VergeOS system (e.g. previously imported). If a UUID is displayed, the VM was imported as a [snapshot](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshots-overview) to avoid inadvertently overwriting an existing VergeOS VM."

@@ -39,7 +39,7 @@ Snapshots provide a way to obtain quick recovery points, allowing for a complete
 
 ## Restore a Tenant from Snapshot (overwrite existing)
 
-Completing these instructions will overwrite the existing tenant. A tenant can be restored to a new instance from the [System Snapshot Dashboard](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/system-snapshot-restores#restore-select-tenants-from-a-system-snapshot).
+Completing these instructions will overwrite the existing tenant. A tenant can be restored to a new instance from the [System Snapshot Dashboard](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshot-restores#restore-select-tenants-from-a-system-snapshot).
 
 1. **Power off the tenant offline**; the tenant must be offline before it can be restored.
 2. Navigate to the tenant dashboard (from the top menu: Tenants > Dashboard > double-click the desired tenant in the list.)

@@ -44,7 +44,7 @@ VergeOS provides comprehensive diagnostic tools integrated throughout the platfo
 
     **Access:** Networks → [Select Network] → Diagnostics
 
-    [:octicons-arrow-right-24: Network Diagnostics Guide](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/network-diagnostics)
+    [:octicons-arrow-right-24: Network Diagnostics Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-diagnostics)
 
 -   :fontawesome-solid-server:{ .lg .middle } __Node Diagnostics__
 
@@ -54,7 +54,7 @@ VergeOS provides comprehensive diagnostic tools integrated throughout the platfo
 
     **Access:** Nodes → [Select Node] → Diagnostics
 
-    [:octicons-arrow-right-24: Node Diagnostics Guide](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/node-diagnostics)
+    [:octicons-arrow-right-24: Node Diagnostics Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/node-diagnostics)
 
 -   :fontawesome-solid-database:{ .lg .middle } __vSAN Diagnostics__
 
@@ -64,7 +64,7 @@ VergeOS provides comprehensive diagnostic tools integrated throughout the platfo
 
     **Access:** System → vSAN Diagnostics
 
-    [:octicons-arrow-right-24: vSAN Diagnostics Guide](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/vsan-diagnostics)
+    [:octicons-arrow-right-24: vSAN Diagnostics Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/vsan-diagnostics)
 
 -   :fontawesome-solid-folder-open:{ .lg .middle } __NAS Diagnostics__
 
@@ -74,7 +74,7 @@ VergeOS provides comprehensive diagnostic tools integrated throughout the platfo
 
     **Access:** NAS → [Select NAS Service] → Diagnostics
 
-    [:octicons-arrow-right-24: NAS Diagnostics Guide](https://app.gitbook.com/s/XSPACE_RUN/product-guide/nas/nas-diagnostics)
+    [:octicons-arrow-right-24: NAS Diagnostics Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-diagnostics)
 
 </div>
 
@@ -90,7 +90,7 @@ VergeOS provides comprehensive diagnostic tools integrated throughout the platfo
 
     **Access:** System → System Diagnostics
 
-    [:octicons-arrow-right-24: System Diagnostics Documentation](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/diagnostics)
+    [:octicons-arrow-right-24: System Diagnostics Documentation](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/diagnostics)
 
 -   :fontawesome-solid-bell:{ .lg .middle } __Subscriptions & Alerts__
 
@@ -100,7 +100,7 @@ VergeOS provides comprehensive diagnostic tools integrated throughout the platfo
 
     **Access:** System → Subscriptions
 
-    [:octicons-arrow-right-24: Subscriptions Overview](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/subscriptions-overview)
+    [:octicons-arrow-right-24: Subscriptions Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/subscriptions-overview)
 
 -   :fontawesome-solid-chart-line:{ .lg .middle } __Prometheus Exporter__
 
@@ -110,7 +110,7 @@ VergeOS provides comprehensive diagnostic tools integrated throughout the platfo
 
     **Access:** System → Prometheus Exporter
 
-    [:octicons-arrow-right-24: Prometheus Exporter](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/tools-integrations/prometheus-exporter)
+    [:octicons-arrow-right-24: Prometheus Exporter](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/prometheus-exporter)
 
 </div>
 

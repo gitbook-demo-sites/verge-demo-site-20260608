@@ -26,7 +26,7 @@ categories:
 
 This page provides information for **editing the base configuration** of a tenant.  
 
-See [**Increasing a Tenant's Resources**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/tenants/add-tenant-resources) or [**Reducing a Tenant's Resources**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/tenants/reduce-tenant-resources) for instructions regarding modifying resources.
+See [**Increasing a Tenant's Resources**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/add-tenant-resources) or [**Reducing a Tenant's Resources**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/reduce-tenant-resources) for instructions regarding modifying resources.
 
 ## Tenant Properties
 
@@ -57,7 +57,7 @@ To modify any of the following properties of an existing tenant, navigate to the
   * **blank** - disables tenant Help links (Help links within the tenant UI will produce a 404 error page)
   * **custom URL** - URL can be provided to accommodate a custom document store for help content
 
-* **UI Address** - Link for the tenant to access their own VergeOS UI. This field is **autopopulated** with the [**first External IP**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/tenants/assign-ip-to-tenant) assigned to the tenant. If/when additional external IPs are assigned to a tenant, the **UI address can be changed** to one of the other IP addresses. Rules will **automatically** be updated by the system; *Apply Rules* to **both** the associated **External** network and **tenant** network if *UI Address* is modified.
+* **UI Address** - Link for the tenant to access their own VergeOS UI. This field is **autopopulated** with the [**first External IP**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/assign-ip-to-tenant) assigned to the tenant. If/when additional external IPs are assigned to a tenant, the **UI address can be changed** to one of the other IP addresses. Rules will **automatically** be updated by the system; *Apply Rules* to **both** the associated **External** network and **tenant** network if *UI Address* is modified.
 
 * **UI FQDN** - Only applies when a [**Proxy**](https://docs.verge.io/knowledge-base/configuring-proxy/) is being used. Select desired FQDN from the dropdown list.  
 

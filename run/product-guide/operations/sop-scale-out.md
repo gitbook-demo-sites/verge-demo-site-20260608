@@ -113,7 +113,7 @@ Perform these checks on the day of scheduled maintenance, before beginning the s
 
 For detailed step-by-step instructions on performing the vSAN scale out, please refer to:
 
-[Scale-out Node Installation Guide](https://app.gitbook.com/s/XSPACE_DEPLOY/implementation-guide/scale-out-nodes)
+[Scale-out Node Installation Guide](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/scale-out-nodes)
 
 ### Key Process Overview
 

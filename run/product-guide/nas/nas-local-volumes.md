@@ -30,7 +30,7 @@ categories:
 
 Local volumes are file systems stored within VergeOS, consuming storage in the VergeOS vSAN. Each local volume can have different sharing, syncing, tiering, and permission settings.
 
-!!! success "A NAS service must be in place before creating volumes. See the [**NAS Service**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/nas/nas-service) page for instructions."
+!!! success "A NAS service must be in place before creating volumes. See the [**NAS Service**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-service) page for instructions."
 
 ## Create a Local Volume
 
@@ -53,9 +53,9 @@ Local volumes are file systems stored within VergeOS, consuming storage in the V
 12. The **Automatically Mount Snapshots** option can be selected to make snapshots readily available for browsing/file restores.
 13. Specify **Owner** for the volume directory (optional).
 14. Specify a **Group** for volume directory (optional).
-15. Select a **Snapshot Profile** for the volume (optional). See [**Snapshot Profiles**](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/snapshot-profiles) for information regarding snapshot profiles.
-16. Select **Preferred Tier** for storing this volume. Preferred tier is the tier first attempted. See [**Preferred Tiers**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/preferred-tiers) for more information.
+15. Select a **Snapshot Profile** for the volume (optional). See [**Snapshot Profiles**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshot-profiles) for information regarding snapshot profiles.
+16. Select **Preferred Tier** for storing this volume. Preferred tier is the tier first attempted. See [**Preferred Tiers**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/preferred-tiers) for more information.
 17. Click **Submit** to save the settings and create the local volume.
 18. The dashboard for the new local volume is displayed. It may take a few minutes for the new volume to come online. If the volume status does not become online, refer to the logs section (bottom of dashboard) to view error messages for troubleshooting.
 19. Files in the online volume can be viewed using the **Browse** option from the left menu.
-20. To expose the local volume, create CIFS and/or NFS [**shares**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/nas/nas-shares).
+20. To expose the local volume, create CIFS and/or NFS [**shares**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-shares).

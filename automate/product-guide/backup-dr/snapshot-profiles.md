@@ -58,7 +58,7 @@ Multiple, default snapshot profiles are created by the VergeOS installation. The
     * Daily at midnight snapshots retained for 3 days
     * Daily at noon snapshots retained for 1 day
     * Profile assigned at installation to take full snapshots of the entire system according to this schedule.
-    * More detail about system snapshots can be found at: [System Snapshots](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/system-snapshots)
+    * More detail about system snapshots can be found at: [System Snapshots](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshots)
 
     ### Volume Antivirus Scan
     * Default profile for volume antivirus scan scheduling
@@ -109,13 +109,13 @@ A profile period defines both the frequency and retention for snapshots. Adding 
 
 * **Private**: when selected, snapshots from this period are hidden from tenants
 * **Immutable**: when selected, deletion of snapshots is blocked for all users until expiration or the immutable flag is removed with a mandatory waiting period.  
-!!! warning "Immutable snapshots cannot be deleted until unlocked and mandatory waiting period expires. Ensure retention settings align with available storage. For more guidance, see the [Immutable Snapshots Guide](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/immutable-snapshots)."
+!!! warning "Immutable snapshots cannot be deleted until unlocked and mandatory waiting period expires. Ensure retention settings align with available storage. For more guidance, see the [Immutable Snapshots Guide](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/immutable-snapshots)."
 * **Snapshot Type**:
     * ***Full***: captures the entire system; required for full-system recovery
     * ***Partial - Exclude Tags***: captures all VMs, tenants, VMware services, and volumes *except* those with the specified tags
     * ***Partial - Include Tags***: captures only VMs, tenants, VMware services, and volumes with the specified tags
         * **Exclude/Include Tags** (Partial snapshots only): Click the ellipse button [<i class="bi bi-three-dots"></i>] to select one or more tags.
-        * **Quiesce Tags** (optional; Partial snapshots only): Click the ellipse button [<i class="bi bi-three-dots"></i>] to select one or more tags. VMs with the specified tags will temporarily freeze disk activity during capture to provide an application-consistent snapshot. Requires [VM Guest Agent](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/vm-guest-agent) support.
+        * **Quiesce Tags** (optional; Partial snapshots only): Click the ellipse button [<i class="bi bi-three-dots"></i>] to select one or more tags. VMs with the specified tags will temporarily freeze disk activity during capture to provide an application-consistent snapshot. Requires [VM Guest Agent](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-guest-agent) support.
 
 
 
@@ -123,13 +123,13 @@ A profile period defines both the frequency and retention for snapshots. Adding 
 
 * **Quiesce Snapshots**: If enabled, disk activity will temporarily freeze while the snapshot is being taken.
     * Provides application-consistent backups for VMs  
-    * VMs require [VM guest agent](https://app.gitbook.com/s/XSPACE_RUN/product-guide/virtual-machines/vm-guest-agent) support 
+    * VMs require [VM guest agent](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-guest-agent) support 
 
 * **Max Tier for Storing Snapshot**: (default= Tier 1). Controls the highest storage tier allowed for snapshot data.
     * Snapshot data normally uses the same tier as the source.
     * If the source tier exceeds the max tier, the snapshot is stored at the max tier instead.
     * Tier 1 means no restrictions because it is the most expensive tier
-    * See [**Storage Tiers**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/storage-tiers) for details.
+    * See [**Storage Tiers**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/storage-tiers) for details.
 
 
 ## Modify an Existing Snapshot Profile
@@ -169,16 +169,16 @@ Click any tile to drill down into the corresponding resource list.
 Snapshot profiles can be assigned to different snapshot types:
 
 ### Full System Snapshots
- It is typically recommended that you use the default *'System Snapshots'* profile for your full system snapshots. This profile can be modified to customize scheduling and can include partial snapshots in addition to full system snapshots.  See [System Snapshots](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/system-snapshots) for more information
+ It is typically recommended that you use the default *'System Snapshots'* profile for your full system snapshots. This profile can be modified to customize scheduling and can include partial snapshots in addition to full system snapshots.  See [System Snapshots](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshots) for more information
 
 ### Partial System Snapshots
-Select VMs and/or tenants based on custom tagging.  These can be added to your [System Snapshots](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/system-snapshots) schedule or added to a separate snapshot profile.
+Select VMs and/or tenants based on custom tagging.  These can be added to your [System Snapshots](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshots) schedule or added to a separate snapshot profile.
 
 ### Individual NAS Volumes
- See [NAS Volume Snapshots and Restores - Schedule Volume Snapshots ](https://app.gitbook.com/s/XSPACE_RUN/product-guide/nas/volume-snapshots-restores#schedule-volume-snapshots)
+ See [NAS Volume Snapshots and Restores - Schedule Volume Snapshots ](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/volume-snapshots-restores#schedule-volume-snapshots)
 
 ### Individual VMs
-See [VM Snapshots and Restores - Assign a Snapshot Profile](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/vm-snapshots-restores#assign-a-snapshot-profile-to-an-individual-vm)
+See [VM Snapshots and Restores - Assign a Snapshot Profile](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/vm-snapshots-restores#assign-a-snapshot-profile-to-an-individual-vm)
 
 !!! warning "Removing a VM from a profile does not delete its existing snapshots"
     When a VM is unsubscribed from a snapshot profile, any snapshots previously taken by that profile are **not** automatically deleted. These orphaned snapshots continue to appear in the **VM Snapshots** and **Machines** tiles on the profile dashboard, even though the **VMS** tile shows 0. Combined with the **Minimum Snapshots** setting (default: 1), these snapshots can persist indefinitely. See [Cleaning Up Orphaned VM Snapshots](#cleaning-up-orphaned-vm-snapshots) for resolution steps.

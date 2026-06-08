@@ -71,10 +71,10 @@ The following sections provide step-by-step instructions to enable and assign NV
 Before starting, ensure the following are in place:
 
 - **NVIDIA vGPU-capable GPU** installed in one or more VergeOS nodes (see [NVIDIA Supported GPUs](https://docs.nvidia.com/vgpu/gpus-supported-by-vgpu.html){target="_blank"})
-- **IOMMU / VT-d / SR-IOV enabled** in the host BIOS — if not yet enabled, plan for a node reboot during this process (follow proper [**Maintenance Mode**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/operations/maintenance-mode) procedures).
+- **IOMMU / VT-d / SR-IOV enabled** in the host BIOS — if not yet enabled, plan for a node reboot during this process (follow proper [**Maintenance Mode**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/maintenance-mode) procedures).
 - **NVIDIA vGPU software license** — access to the [NVIDIA licensing portal](https://nvidia.com/en-us/data-center/resources/vgpu-evaluation){target="_blank"} to obtain drivers
 - **VergeOS admin access** to the Resource Manager and node configuration
-- Familiarity with [**PCI Passthrough Risks and Precautions**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/device-pass-overview#pci-passthrough-risksprecautions)
+- Familiarity with [**PCI Passthrough Risks and Precautions**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/device-pass-overview#pci-passthrough-risksprecautions)
 
 ## Host Installation/Configuration
 
@@ -82,9 +82,9 @@ Before starting, ensure the following are in place:
 
     !!! tip "VergeOS supports bundle-version NVIDIA drivers. For a list of currently supported NVIDIA drivers, navigate to Resource Manager > Groups > New. Set Type=*NVIDIA vGPU* and click the button to view compatible third-party drivers. Typically, you will want to use the most recent driver in this list that is compatible with your NVIDIA hardware."
 
-2. Upload the NVIDIA bundle driver to the VergeOS vSAN. See [**Uploading to the vSAN (Files)**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/uploading-files-to-vsan) for upload instructions.
+2. Upload the NVIDIA bundle driver to the VergeOS vSAN. See [**Uploading to the vSAN (Files)**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/uploading-files-to-vsan) for upload instructions.
 
-    !!! note "The following instructions configure selected vGPU device(s) for virtual function passthrough by automatically creating necessary resource rules for each selected device and attaching the device(s) to a resource group. This creates a pool of virtual function devices that can be assigned to tenants and virtual machines to draw from. For more information about resource groups and resource rules, see: [**Device Passthrough - Overview**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/device-pass-overview#resource-group)"
+    !!! note "The following instructions configure selected vGPU device(s) for virtual function passthrough by automatically creating necessary resource rules for each selected device and attaching the device(s) to a resource group. This creates a pool of virtual function devices that can be assigned to tenants and virtual machines to draw from. For more information about resource groups and resource rules, see: [**Device Passthrough - Overview**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/device-pass-overview#resource-group)"
 
 3. Navigate to the **Resource Manager Dashboard** (**Infrastructure** > **Resources** from the top menu)
 **-OR-**
@@ -110,7 +110,7 @@ Navigate to a **specific node** where the NVIDIA hardware is installed (**Infras
    * The **Driver** dropdown list will contain all NVIDIA vGPU drivers (.zip) found in the *Files* section. The appropriate driver will need to be uploaded to the vSAN before it can be selected (Steps 1-2 above). Select the appropriate driver.
    * Click **Submit** to save the resource group.
 After the resource group is selected or a new one is created, a **Success** message should appear indicating resource rules were created for the device(s).
-   * If a driver has not been previously loaded or IOMMU is not yet enabled, **reboot the associated node(s)** in [**Maintenance Mode**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/operations/maintenance-mode) before continuing.
+   * If a driver has not been previously loaded or IOMMU is not yet enabled, **reboot the associated node(s)** in [**Maintenance Mode**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/maintenance-mode) before continuing.
    * After the node(s) are rebooted, navigate to the NVIDIA vGPU resource group just created (Infrastructure > Resources > Groups > double-click the group).
    * Click **Edit** on the left menu.
    * Select **NVIDIA vGPU Profile**: Traditional or MIG (Tabs below provide associated instructions):
@@ -181,12 +181,12 @@ The following guest driver settings apply to both Traditional and MIG vGPU confi
 
 ## Reload Drivers
 
-* When resource group configuration is complete and has been submitted, place the node into [**Maintenance Mode**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/operations/maintenance-mode) and click **Reload Drivers**.
+* When resource group configuration is complete and has been submitted, place the node into [**Maintenance Mode**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/maintenance-mode) and click **Reload Drivers**.
 * Monitor the Node Dashboard logs (bottom of page) to **verify the driver is successfully installed** before disabling maintenance mode.
 
 
 !!! tip
-    The resource group dashboard contains the resource rules that were auto-generated based on your selected NVIDIA devices. You can click an individual rule to view configuration detail. A system-created rule can be modified as needed. For example, the *Node* filter can be changed to *-- None --* to include matching devices from all nodes; the *slot* filter can be removed or modified to accommodate devices that may reside on different slots within the same node or across different nodes. Information regarding resource rules is available at: [**Device Passthrough Overview - Resource Rules**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/device-pass-overview#resource-rules)
+    The resource group dashboard contains the resource rules that were auto-generated based on your selected NVIDIA devices. You can click an individual rule to view configuration detail. A system-created rule can be modified as needed. For example, the *Node* filter can be changed to *-- None --* to include matching devices from all nodes; the *slot* filter can be removed or modified to accommodate devices that may reside on different slots within the same node or across different nodes. Information regarding resource rules is available at: [**Device Passthrough Overview - Resource Rules**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/device-pass-overview#resource-rules)
 
 
 ## VM/Guest Configuration

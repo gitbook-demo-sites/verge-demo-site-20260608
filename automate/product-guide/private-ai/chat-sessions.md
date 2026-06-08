@@ -28,7 +28,7 @@ categories:
 
 This page provides a guide for conducting interactive chat sessions with an AI assistant from the VergeOS UI.
 
-!!! tip "A chat session requires a configured model and assistant; see the [AI Configuration Guide](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/private-ai/configuration) for setup instructions."
+!!! tip "A chat session requires a configured model and assistant; see the [AI Configuration Guide](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/private-ai/configuration) for setup instructions."
 
 ## Accessing a New Chat Session
 
@@ -56,7 +56,7 @@ Token usage metrics can be accessed per prompt/response iteration: simply hover 
 
 ### Saving Chat History
 
-Assistant settings allow controlling chat history default settings across sessions. See [AI Assistant Management](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/private-ai/configuration#ai-assistant-management).  
+Assistant settings allow controlling chat history default settings across sessions. See [AI Assistant Management](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/private-ai/configuration#ai-assistant-management).  
  
 
 ### Accessing History from a Previous Session

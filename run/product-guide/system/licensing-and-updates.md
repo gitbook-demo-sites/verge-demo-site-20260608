@@ -27,7 +27,7 @@ categories:
 
 # Licensing and Software Updates
 
-This guide explains how to manage software updates and licensing in VergeOS. For an overview of how licensing works, including System IDs and license types, see [Licensing Overview](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/licensing-overview).
+This guide explains how to manage software updates and licensing in VergeOS. For an overview of how licensing works, including System IDs and license types, see [Licensing Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/licensing-overview).
 
 ## Accessing System Updates
 
@@ -188,8 +188,8 @@ For environments without outbound internet access, VergeOS supports air-gap lice
 - [Updating the VergeOS System](https://docs.verge.io/knowledge-base/updating-vergeos-system/)
 - [Requesting an Airgap License](https://docs.verge.io/knowledge-base/requesting-an-airgap-license/)
 - [Updating a VergeOS System with Airgap License](https://docs.verge.io/knowledge-base/updating-vergeos-system-with-airgap-license/)
-- [System Snapshots](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/system-snapshots)
-- [Restores from System Snapshots](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/system-snapshot-restores)
+- [System Snapshots](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshots)
+- [Restores from System Snapshots](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshot-restores)
 
 !!! tip
     Regular monitoring of the Update Status Dashboard helps ensure system health and security.

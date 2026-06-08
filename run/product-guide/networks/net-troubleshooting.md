@@ -62,7 +62,7 @@ If the network assigned a DHCP address to the NIC, it will display in the **IP A
 
 4. Verify appropriate subnet mask and gateway (gateway should be network router IP address).
 5. Verify the IP address is not duplicated (in use by another NIC) on the same network.
-!!! info "It is typically recommended to use DHCP on internal networks, rather than simply assigning addresses within the VM guest OS. Static DHCP can be configured to reserve particular addresses to particular VMs: [**Create a DHCP Static Entry**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/dhcp-static-lease)"
+!!! info "It is typically recommended to use DHCP on internal networks, rather than simply assigning addresses within the VM guest OS. Static DHCP can be configured to reserve particular addresses to particular VMs: [**Create a DHCP Static Entry**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/dhcp-static-lease)"
 
 ## Verify Correct NIC Interface and Driver
 
@@ -81,7 +81,7 @@ If a VM is still unable to reach its network router after the NIC interface/driv
 
 ## Common Network Diagnostics
 
-Some common network diagnostic queries are explained within this section; see [**Network - Diagnostics**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/network-diagnostics) for additional information regarding the built-in diagnostics tool.
+Some common network diagnostic queries are explained within this section; see [**Network - Diagnostics**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-diagnostics) for additional information regarding the built-in diagnostics tool.
 
 ### Check that a Network has Internet Connectivity
 

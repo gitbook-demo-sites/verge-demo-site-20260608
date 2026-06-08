@@ -33,9 +33,9 @@ Authorization Sources allow utilizing third party Oauth2 identity management sys
 
 The following links provide source-specific instructions:  
 
-* [Google](https://app.gitbook.com/s/XSPACE_RUN/product-guide/auth/google-auth)
-* [Azure](https://app.gitbook.com/s/XSPACE_RUN/product-guide/auth/azure-auth)
-* [VergeOS OIDC](https://app.gitbook.com/s/XSPACE_RUN/product-guide/auth/oidc-apps-overview)
+* [Google](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/auth/google-auth)
+* [Azure](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/auth/azure-auth)
+* [VergeOS OIDC](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/auth/oidc-apps-overview)
 
 ## Creating an Authorization Source - General Instructions
 

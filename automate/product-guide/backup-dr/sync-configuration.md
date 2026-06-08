@@ -186,7 +186,7 @@ When a specific tier(1-5) is selected here, the sync directs all data to the sel
 ## Specify Snapshots to Auto Sync and Remote Retention
 
 
-!!! success "System snapshots can be selected for automatic site sync; this includes full and partial (available in version 26.1) system snapshots.  See [**Snapshots Overview**](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/snapshots-overview) and [**System Snapshots**](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/system-snapshots) for more information."  
+!!! success "System snapshots can be selected for automatic site sync; this includes full and partial (available in version 26.1) system snapshots.  See [**Snapshots Overview**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshots-overview) and [**System Snapshots**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshots) for more information."  
 
 
 ### Select Snapshots and Remote Retentions for Auto Sync
@@ -217,7 +217,7 @@ When no schedule is defined for the sync, snapshots defined in the auto sync con
 3. Create a task with **Task type** = ***Enable*** to set a start time for the sync.
 4. Create an additional task with **Task type** = ***Disable*** to set a stop time for the sync.
 
-More information on creating automated tasks is available here: [**Create Tasks**](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/create-tasks)
+More information on creating automated tasks is available here: [**Create Tasks**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/create-tasks)
 
 ### Configure Throttle Scheduling
 
@@ -228,8 +228,8 @@ More information on creating automated tasks is available here: [**Create Tasks*
    **-OR-**
    Create an additional task with **Task type** = ***Throttle Sync*** configuring a schedule to implement an alternate bandwidth limit for throttle.
 
-More information on creating automated tasks is available here: [**Create Tasks**](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/automation/create-tasks)
+More information on creating automated tasks is available here: [**Create Tasks**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/create-tasks)
 
 ## Repair Server
 
-A repair server will allow vSAN data blocks to be replicated from the sync destination back to the source when needed; this provides automatic restoration attempts in the event of hardware or power issues that surpass redundancy levels. See the [**Repair Server**](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/backup-dr/repair-server) page for more information.
+A repair server will allow vSAN data blocks to be replicated from the sync destination back to the source when needed; this provides automatic restoration attempts in the event of hardware or power issues that surpass redundancy levels. See the [**Repair Server**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/repair-server) page for more information.

@@ -43,7 +43,7 @@ VergeOS vSAN supports the use of Fibre Channel (FC) LUNs as storage devices with
 
 ### Hardware
 
-- Physical disks in VergeOS Systems vSAN [**Tier 0**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/storage-tiers#tier-0-metadata-tier)
+- Physical disks in VergeOS Systems vSAN [**Tier 0**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/storage-tiers#tier-0-metadata-tier)
 - FC Host Bus Adapters (HBAs) in at least two cluster nodes  
 - Compatible FC switches (8/16/32 Gb)  
 - Redundant FC fabric highly recommended
@@ -62,7 +62,7 @@ VergeOS vSAN supports the use of Fibre Channel (FC) LUNs as storage devices with
     For maximum efficiency and to avoid duplicate redundancy, we recommend **mapping each FC LUN to a dedicated physical disk**.
 
 !!! tip "Deduplication"
-    VergeOS vSAN handles data deduplication natively at the block level. When using external storage with vSAN, you should disable deduplication on your SAN if it does not support cross-LUN deduplication. If your SAN supports global deduplication, we recommend leaving it enabled to reduce overall storage consumption. VergeOS replicates data across FC LUNs according to the system's configured [vSAN redundancy level](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/vsan-redundancy-levels) (N+1 stores 2 copies; N+2 stores 3 copies).
+    VergeOS vSAN handles data deduplication natively at the block level. When using external storage with vSAN, you should disable deduplication on your SAN if it does not support cross-LUN deduplication. If your SAN supports global deduplication, we recommend leaving it enabled to reduce overall storage consumption. VergeOS replicates data across FC LUNs according to the system's configured [vSAN redundancy level](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/vsan-redundancy-levels) (N+1 stores 2 copies; N+2 stores 3 copies).
 
 !!! warning "Turn Off Storage Redundancy"
     VergeOS vSAN handles data redundancy natively. You should **disable RAID and automatic tiering features** on the SAN for LUNs used by VergeOS.
@@ -98,7 +98,7 @@ By default, VergeOS manages multiple paths to each LUN in an active/passive conf
     We recommend adding all Fibre Channel LUNs via [**Scaling Up a vSAN**](https://docs.verge.io/knowledge-base/scaling-up-a-vsan/) procedure.
 
 !!! warning "Use Maintenance Mode"
-    Always enter [**Maintenance Mode**](https://app.gitbook.com/s/XSPACE_RUN/product-guide/operations/maintenance-mode) before modifying storage configurations.
+    Always enter [**Maintenance Mode**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/maintenance-mode) before modifying storage configurations.
 
 ## Best Practices
 
@@ -140,7 +140,7 @@ By default, VergeOS manages multiple paths to each LUN in an active/passive conf
 
 ## Related Documentation
 
-- [Storage Tiers](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/storage-tiers)  
-- [vSAN Architecture](https://app.gitbook.com/s/XSPACE_RUN/product-guide/storage/vsan-architecture)  
-- [Maintenance Mode](https://app.gitbook.com/s/XSPACE_RUN/product-guide/operations/maintenance-mode)  
-- [System Monitoring](https://app.gitbook.com/s/XSPACE_RUN/product-guide/system/subscriptions-overview)
+- [Storage Tiers](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/storage-tiers)  
+- [vSAN Architecture](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/vsan-architecture)  
+- [Maintenance Mode](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/operations/maintenance-mode)  
+- [System Monitoring](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/subscriptions-overview)

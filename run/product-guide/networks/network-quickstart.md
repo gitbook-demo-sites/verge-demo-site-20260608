@@ -22,17 +22,17 @@ categories:
 
 # Quick Start Links
 
-### [Connect VergeOS to your Existing LAN/WAN](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/connect-lan-wan)
+### [Connect VergeOS to your Existing LAN/WAN](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/connect-lan-wan)
 
-### [Provide External Access to an Internal Network](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/internal-external-access) (internal network with access via a VergeOS external network)
+### [Provide External Access to an Internal Network](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/internal-external-access) (internal network with access via a VergeOS external network)
 
-### [Create an internal network, to be managed within VergeOS](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/internal-layer3) (layer3 internal network with built-in DNS, DHCP, firewall)
+### [Create an internal network, to be managed within VergeOS](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/internal-layer3) (layer3 internal network with built-in DNS, DHCP, firewall)
 
-### [Create a DHCP Static Entry](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/dhcp-static-lease)
+### [Create a DHCP Static Entry](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/dhcp-static-lease)
 
-### [Assign an External IP to an Internal Network](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/assign-external-ip)
+### [Assign an External IP to an Internal Network](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/assign-external-ip)
 
-### [Create a NAT 1-to-1 Translation](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/nat-1to1)
+### [Create a NAT 1-to-1 Translation](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/nat-1to1)
 
-### [Create an Internal Layer2 Network](https://app.gitbook.com/s/XSPACE_RUN/product-guide/networks/internal-layer2)
+### [Create an Internal Layer2 Network](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/internal-layer2)
 

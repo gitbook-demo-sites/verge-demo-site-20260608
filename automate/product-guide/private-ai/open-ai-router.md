@@ -181,7 +181,7 @@ The `timings` field provides performance metrics not available in the standard O
 
 Assistants define how the API interacts with underlying models. The assistant **Name** is used as the `model` parameter in API requests.
 
-For detailed instructions on creating and configuring assistants, see the [AI Configuration Guide](https://app.gitbook.com/s/XSPACE_AUTOMATE/product-guide/private-ai/configuration#ai-assistant-management).
+For detailed instructions on creating and configuring assistants, see the [AI Configuration Guide](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/private-ai/configuration#ai-assistant-management).
 
 !!! tip "Key Settings for API Usage"
     - **Name**: This becomes the `model` parameter in API calls
