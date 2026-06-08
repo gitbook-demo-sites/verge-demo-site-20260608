@@ -20,5 +20,5 @@ This space consolidates the current implementation guide and reference architect
 
 ## Related spaces
 
-- VMware comparisons live in [Run the platform](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/intro/transition-from-vmware)
-- Snapshot and DR follow-through lives in [Automate, protect, and extend](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/overview)
+- VMware comparisons live in [Run the platform](https://app.gitbook.com/s/null/product-guide/intro/transition-from-vmware)
+- Snapshot and DR follow-through lives in [Automate, protect, and extend](https://app.gitbook.com/s/null/product-guide/backup-dr/overview)

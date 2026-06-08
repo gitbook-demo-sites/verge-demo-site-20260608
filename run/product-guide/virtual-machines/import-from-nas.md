@@ -25,7 +25,7 @@ categories:
 
 # Importing VMs from a NAS Volume
 
-This method allows for the import of many VMs at once. It does not require uploading any files to the vSAN, but rather, allows for pulling data from an NFS or CIFS share. Note: For production, live, VMware environments, it is best to utilize the VMware Service to [**Import from a VMware Backup Job**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-vmware)
+This method allows for the import of many VMs at once. It does not require uploading any files to the vSAN, but rather, allows for pulling data from an NFS or CIFS share. Note: For production, live, VMware environments, it is best to utilize the VMware Service to [**Import from a VMware Backup Job**](https://app.gitbook.com/s/null/product-guide/virtual-machines/import-from-vmware)
 
 !!! warning "Import should be performed from VMs that are powered down."
 
@@ -33,7 +33,7 @@ This method allows for the import of many VMs at once. It does not require uploa
 
 ## Import from Volume
 
-1. To utilize an external NFS or CIFS share for VM import, the external source must be set up as a **Remote Volume** in the NAS. See [**Remote Volumes**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-remote-volumes) for instructions.
+1. To utilize an external NFS or CIFS share for VM import, the external source must be set up as a **Remote Volume** in the NAS. See [**Remote Volumes**](https://app.gitbook.com/s/null/product-guide/nas/nas-remote-volumes) for instructions.
 2. From the cloud Dashboard, select **Machines** from the menu or click the Machines quick-link on the dashboard.
 3. Select **New VM** from the left menu.
 4. Select Type of (on the left), **--Import from Volume--**.
@@ -43,7 +43,7 @@ This method allows for the import of many VMs at once. It does not require uploa
 8. Click **Next** (bottom of the screen).
 9. The import job is given a default name of "Import Volume" + *NameofVolume*. **Import job Name can be changed** as desired.
 10. By default, ***MAC Addresses*** will be preserved (MAC addresses will stay the same as the source VMs from which they are imported); this is typically recommended to avoid necessary reconfiguration with the guest OS. If this option is unselected, the system will generate new, unique MAC addresses for all NICs.
-11. ***Preferred Tier*** can be selected or left at **--default--**. This determines the tier first attempted for VM storage. The [**Preferred Tiers**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/preferred-tiers) page provides a detailed explanation of Preferred Tier.
+11. ***Preferred Tier*** can be selected or left at **--default--**. This determines the tier first attempted for VM storage. The [**Preferred Tiers**](https://app.gitbook.com/s/null/product-guide/storage/preferred-tiers) page provides a detailed explanation of Preferred Tier.
 12. When fields are entered as desired, click **Submit**.
 13. The import is initiated and the **Import Job Dashboard** will display. The following information (as well as additional data) is provided:
     - ***Status*** (Initializing/Importing/Complete)
@@ -53,4 +53,4 @@ This method allows for the import of many VMs at once. It does not require uploa
     - ***Job Logs***
     - ***Number of completed Child Jobs(VMs) / total number of Jobs (VMs) detected***
 
-See [**Viewing Import Jobs**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/view-import-jobs) for more information on viewing the details of an import job.
+See [**Viewing Import Jobs**](https://app.gitbook.com/s/null/product-guide/virtual-machines/view-import-jobs) for more information on viewing the details of an import job.

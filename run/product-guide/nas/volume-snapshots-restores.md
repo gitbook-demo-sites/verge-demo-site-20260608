@@ -35,7 +35,7 @@ Quiesced volume snapshots freeze file system I/O during the snapshot process. Th
 
 ## Schedule Volume Snapshots
 
-[Snapshot Profiles](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshot-profiles) are used to schedule snapshots; assign a profile to a volume to perform automated snapshots.
+[Snapshot Profiles](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshot-profiles) are used to schedule snapshots; assign a profile to a volume to perform automated snapshots.
 
 ### Assign a Snapshot Profile to a Volume
 

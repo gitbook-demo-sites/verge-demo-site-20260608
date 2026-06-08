@@ -40,14 +40,14 @@ file systems.
 
 ## NAS Setup Steps 
 
-1. [**Add a NAS Service**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-service)
+1. [**Add a NAS Service**](https://app.gitbook.com/s/null/product-guide/nas/nas-service)
 
-2. **Optional - **[**Integrate with Active Directory**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-join-ad-domain)
+2. **Optional - **[**Integrate with Active Directory**](https://app.gitbook.com/s/null/product-guide/nas/nas-join-ad-domain)
 
 3. **Create Volumes** (Each volume is its own directory tree that can be customized for security, snapshot, access, antivirus, max size, and sharing settings.)
 
-    * [**Local Volumes**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-local-volumes) are stored within VergeOS, consuming vSAN storage.
-    * [**Remote Volumes**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-remote-volumes) are external file systems that are mounted to the VergeOS system and presented as if local.
+    * [**Local Volumes**](https://app.gitbook.com/s/null/product-guide/nas/nas-local-volumes) are stored within VergeOS, consuming vSAN storage.
+    * [**Remote Volumes**](https://app.gitbook.com/s/null/product-guide/nas/nas-remote-volumes) are external file systems that are mounted to the VergeOS system and presented as if local.
 
-4. [**Create Shares**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-shares) to provide NFS and/or CIFS access to NAS volumes.
-5. **Optional - **[**Configure Volume Snapshots**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/volume-snapshots-restores) for customized volume retention and/or quiesced snapshots (Non-quiesced NAS volumes can be restored from system snapshots to be used for restore.)
+4. [**Create Shares**](https://app.gitbook.com/s/null/product-guide/nas/nas-shares) to provide NFS and/or CIFS access to NAS volumes.
+5. **Optional - **[**Configure Volume Snapshots**](https://app.gitbook.com/s/null/product-guide/nas/volume-snapshots-restores) for customized volume retention and/or quiesced snapshots (Non-quiesced NAS volumes can be restored from system snapshots to be used for restore.)

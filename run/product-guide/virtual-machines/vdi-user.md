@@ -40,7 +40,7 @@ categories:
 
 ## Using the VM Console
 
-The console gives you keyboard and mouse access to the virtual machine. To access the console, simply click the desired Virtual Machine on your VDI Dashboard. Note: VM must be running; if it is not, a message will appear for you to confirm powering on the VM (permission required); click Yes to confirm. Once the VM shows running, click again to access the Remote Console. See [**Using the Console**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-remote-console) for help with working within the remote console.
+The console gives you keyboard and mouse access to the virtual machine. To access the console, simply click the desired Virtual Machine on your VDI Dashboard. Note: VM must be running; if it is not, a message will appear for you to confirm powering on the VM (permission required); click Yes to confirm. Once the VM shows running, click again to access the Remote Console. See [**Using the Console**](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-remote-console) for help with working within the remote console.
 
 ## Changing Password or user Settings
 

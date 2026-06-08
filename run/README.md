@@ -24,5 +24,5 @@ The current public docs already have the depth. The main improvement here is rou
 
 ## Related spaces
 
-- Deployment planning: [Plan and deploy VergeOS](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/)
-- DR and automation: [Automate, protect, and extend](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/)
+- Deployment planning: [Plan and deploy VergeOS](https://app.gitbook.com/s/null/)
+- DR and automation: [Automate, protect, and extend](https://app.gitbook.com/s/null/)

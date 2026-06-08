@@ -26,8 +26,8 @@ categories:
 
 Before creating the translate rule to NAT an external IP to an internal IP:
 
-- [**Define a static (private) IP for the destination VM**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/dhcp-static-lease)
-- [**Assign an external IP to the internal network**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/assign-external-ip)
+- [**Define a static (private) IP for the destination VM**](https://app.gitbook.com/s/null/product-guide/networks/dhcp-static-lease)
+- [**Assign an external IP to the internal network**](https://app.gitbook.com/s/null/product-guide/networks/assign-external-ip)
 
 ## Create a Translate Rule to NAT External IP to Internal IP
 

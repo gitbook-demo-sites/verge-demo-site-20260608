@@ -33,7 +33,7 @@ VergeOS vSAN employs a sophisticated block-level architecture that forms the fou
 
 ## Related Documentation
 
-- [Scale Out Guide](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/scale-out-nodes) - Detailed instructions for adding nodes to expand capacity
+- [Scale Out Guide](https://app.gitbook.com/s/null/implementation-guide/scale-out-nodes) - Detailed instructions for adding nodes to expand capacity
 - [Scaling Up a vSAN](https://docs.verge.io/knowledge-base/scaling-up-a-vsan/) - Guide for increasing resources on existing nodes
 
 ## Block-Level Operations

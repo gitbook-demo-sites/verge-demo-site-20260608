@@ -53,4 +53,4 @@ A provider can restore a tenant from system snapshot **\-OR-** can expose a syst
 8. Click **Submit**
 The dashboard for the recovered tenant appears. When the status changes from "Provisioning" to **"Offline"** the **tenant can be powered on**.
 
-Once a deleted tenant is restored, an IP address can be reassigned to it. For more information see: [**Assigning External IP Addresses to a Tenant**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/assign-ip-to-tenant)
+Once a deleted tenant is restored, an IP address can be reassigned to it. For more information see: [**Assigning External IP Addresses to a Tenant**](https://app.gitbook.com/s/null/product-guide/tenants/assign-ip-to-tenant)

@@ -31,9 +31,9 @@ VergeOS provides comprehensive, built-in data protection and business continuity
 
 New to VergeOS backup and disaster recovery? Follow this path:
 
-1. **[Configure automated snapshots](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshot-profiles)** - Set up regular system backups with customizable schedules
-2. **[Plan your DR strategy](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/sync-configuration)** - Implement offsite replication to secondary sites  
-3. **[Test recovery procedures](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshot-restores)** - Validate your backup strategy with practice restores
+1. **[Configure automated snapshots](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshot-profiles)** - Set up regular system backups with customizable schedules
+2. **[Plan your DR strategy](https://app.gitbook.com/s/null/product-guide/backup-dr/sync-configuration)** - Implement offsite replication to secondary sites  
+3. **[Test recovery procedures](https://app.gitbook.com/s/null/product-guide/backup-dr/system-snapshot-restores)** - Validate your backup strategy with practice restores
 
 ## Core Capabilities
 
@@ -62,7 +62,7 @@ Capture comprehensive point-in-time copies of your entire infrastructure or indi
 - Application-consistent snapshots with guest agent integration
 - Instant snapshot creation with minimal performance impact
 
-[Learn more about Snapshots →](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshots-overview)
+[Learn more about Snapshots →](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshots-overview)
 
 ### Site Syncs - Offsite Replication
 
@@ -89,7 +89,7 @@ Replicate your VergeOS systems and data to remote locations for comprehensive ba
 - Cross-site workload mobility
 - Centralized monitoring and management
 
-[Configure Site Syncs →](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/sync-configuration)
+[Configure Site Syncs →](https://app.gitbook.com/s/null/product-guide/backup-dr/sync-configuration)
 
 ### Repair Servers (ioGuardian) - Automated Recovery
 
@@ -109,7 +109,7 @@ Intelligent data recovery system that automatically attempts to repair corrupted
 - Maintains data availability during repair operations
 - Provides additional layer of protection beyond traditional redundancy
 
-[Learn more about Repair Servers →](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/repair-server)
+[Learn more about Repair Servers →](https://app.gitbook.com/s/null/product-guide/backup-dr/repair-server)
 
 ## Integration & Monitoring
 
@@ -145,11 +145,11 @@ Intelligent data recovery system that automatically attempts to repair corrupted
 
 ## Related Documentation
 
-- **[Snapshot Profiles](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshot-profiles)** - Configure automated backup schedules
-- **[VM Snapshots & Restores](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/vm-snapshots-restores)** - Individual VM protection
-- **[Tenant Snapshots](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/tenant-snapshots)** - Multi-tenant backup strategies
-- **[Site Sync Monitoring](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/monitoring-site-syncs)** - Track replication health
-- **[Manual Site Syncs](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/manual-site-syncs)** - On-demand replication tasks
+- **[Snapshot Profiles](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshot-profiles)** - Configure automated backup schedules
+- **[VM Snapshots & Restores](https://app.gitbook.com/s/null/product-guide/backup-dr/vm-snapshots-restores)** - Individual VM protection
+- **[Tenant Snapshots](https://app.gitbook.com/s/null/product-guide/tenants/tenant-snapshots)** - Multi-tenant backup strategies
+- **[Site Sync Monitoring](https://app.gitbook.com/s/null/product-guide/backup-dr/monitoring-site-syncs)** - Track replication health
+- **[Manual Site Syncs](https://app.gitbook.com/s/null/product-guide/backup-dr/manual-site-syncs)** - On-demand replication tasks
 
 ## Support & Professional Services
 

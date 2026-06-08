@@ -105,5 +105,5 @@ This guide explains how to import VMware virtual machines using VergeOS's VMware
 
 - [VMware Backup/DR Guide](https://docs.verge.io/knowledge-base/vmwarebackupdrguide/)
 - [Configuring VMware Service VM NIC IPv4 Settings](https://docs.verge.io/knowledge-base/vmware-service-vm-nic-ipv4-configuration/)
-- [Viewing Import Jobs](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/view-import-jobs)
+- [Viewing Import Jobs](https://app.gitbook.com/s/null/product-guide/virtual-machines/view-import-jobs)
 - [Preferred Tier Usage](https://docs.verge.io/knowledge-base/preferred-tier-usage/)

@@ -36,7 +36,7 @@ Snapshots provide nearly-instant, non-disruptive, point-in-time backups that all
 
 ## Automated Snapshots (Scheduled Snapshots)
 
-Snapshots can be automated to take at regularly-scheduled intervals using **snapshot profiles**. A snapshot profile consists of one or more profile periods. Each period determines a frequency for taking snapshots and the default retention time. More information about snapshot profiles is available here: [**Snapshot Profiles (Snapshot Scheduling)**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshot-profiles)
+Snapshots can be automated to take at regularly-scheduled intervals using **snapshot profiles**. A snapshot profile consists of one or more profile periods. Each period determines a frequency for taking snapshots and the default retention time. More information about snapshot profiles is available here: [**Snapshot Profiles (Snapshot Scheduling)**](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshot-profiles)
 
 ## Manual Snapshots
 
@@ -59,20 +59,20 @@ A system snapshot can be used to restore:
 - Individual tenants
 
 For more information see:  
-- [**System Snapshots**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshots)  
-- [**Restores from System Snapshot**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshot-restores)                      
+- [**System Snapshots**](https://app.gitbook.com/s/null/product-guide/backup-dr/system-snapshots)  
+- [**Restores from System Snapshot**](https://app.gitbook.com/s/null/product-guide/backup-dr/system-snapshot-restores)                      
 
 ## VM Snapshot/Restore
 
-VM-level snapshots allow for quiesced capture (requires guest agent) and schedule/retention customizable per individual VM.  Partial system snapshots can include/exclude VMs and provide VM quiescing based on custom tagging. For related instructions, see: [**VM Snapshots and Restores**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/vm-snapshots-restores).
+VM-level snapshots allow for quiesced capture (requires guest agent) and schedule/retention customizable per individual VM.  Partial system snapshots can include/exclude VMs and provide VM quiescing based on custom tagging. For related instructions, see: [**VM Snapshots and Restores**](https://app.gitbook.com/s/null/product-guide/backup-dr/vm-snapshots-restores).
 
 ## Tenant Snapshot/Restore
 
-Individual tenants can be restored from the parent's system snapshot. For related instructions, see: [**Tenant Restores**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/tenant-restores)
+Individual tenants can be restored from the parent's system snapshot. For related instructions, see: [**Tenant Restores**](https://app.gitbook.com/s/null/product-guide/tenants/tenant-restores)
 
-Additionally, each tenant can utilize [**System Snapshots**](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshot-restores), independently within their own environment, to back up their complete system or partial snapshots based on custom tagging.
+Additionally, each tenant can utilize [**System Snapshots**](https://app.gitbook.com/s/null/product-guide/backup-dr/system-snapshot-restores), independently within their own environment, to back up their complete system or partial snapshots based on custom tagging.
 
 ## NAS Snapshot/Restore
 
-Volume snapshots provide quiesced backup/restore of individual NAS volumes. For related instructions, see:  [**NAS Volume Snapshots and Restores**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/volume-snapshots-restores)
+Volume snapshots provide quiesced backup/restore of individual NAS volumes. For related instructions, see:  [**NAS Volume Snapshots and Restores**](https://app.gitbook.com/s/null/product-guide/nas/volume-snapshots-restores)
 

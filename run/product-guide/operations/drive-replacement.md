@@ -51,7 +51,7 @@ The VergeOS interface will provide warnings or alerts to indicate when there is 
 - **Missing** - Drive is no longer detected by the system (failed or physically removed)
 
 !!! warning "Important"
-    **It is highly recommended to configure on-demand and scheduled subscriptions (with *target type=system Dashboard*) to ensure timely awareness of drive issues.** The [Creating Subscriptions Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/subscriptions-overview) provides information about setting up subscriptions.
+    **It is highly recommended to configure on-demand and scheduled subscriptions (with *target type=system Dashboard*) to ensure timely awareness of drive issues.** The [Creating Subscriptions Guide](https://app.gitbook.com/s/null/product-guide/system/subscriptions-overview) provides information about setting up subscriptions.
 
 ## Which Replacement Procedure Should I Use?
 

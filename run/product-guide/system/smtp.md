@@ -29,7 +29,7 @@ categories:
 
 # SMTP
 
-This page provides instructions for configuration and administration of SMTP in a VergeOS system. [Subscriptions](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/subscriptions-overview) (used for system alerts and notifications) rely on effective SMTP configuration. 
+This page provides instructions for configuration and administration of SMTP in a VergeOS system. [Subscriptions](https://app.gitbook.com/s/null/product-guide/system/subscriptions-overview) (used for system alerts and notifications) rely on effective SMTP configuration. 
 
 !!! info "Send direct or via an SMTP Relay" 
     SMTP can be configured to send email directly from the built-in VergeOS mail server -OR- through a relay email server. 

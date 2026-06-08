@@ -61,7 +61,7 @@ A VergeOS system automatically includes the **Service Provider(Marketplace) Repo
 
 1. **Create a VM** to serve as the **base template** for the recipe.  The VM should be generalized and suitable for the replication/customization process.
 2. From the top menu, navigate to **Virtual Machines** > **+ New VM Recipe**.
-!!! note "Recipes are stored in [Catalogs](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/recipes-organization#catalogs). If you do not have a local catalog created yet, you will be prompted to create a new one first."  
+!!! note "Recipes are stored in [Catalogs](https://app.gitbook.com/s/null/product-guide/automation/recipes-organization#catalogs). If you do not have a local catalog created yet, you will be prompted to create a new one first."  
 3. **Recipe Fields**
     * **Name:** Use a descriptive name that adequately identifies the recipe and can help users in locating suitable recipes.
     * **Description:** (optional) You can store any additional information about this recipe here.  This can be a good place to provide basic documentation on the intended purpose and general guidelines.

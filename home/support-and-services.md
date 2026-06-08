@@ -11,7 +11,7 @@ This demo is strongest when it pairs product depth with a clear adoption path.
 {% column %}
 ### Pre-production
 
-- Validate topology with [reference architectures](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/reference-architecture/edge)
+- Validate topology with [reference architectures](https://app.gitbook.com/s/null/reference-architecture/edge)
 - Check hardware and sizing assumptions
 - Align VMware migration scope before first install
 {% endcolumn %}
@@ -19,9 +19,9 @@ This demo is strongest when it pairs product depth with a clear adoption path.
 {% column %}
 ### Post-install
 
-- Use [post-installation](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/post-installation) as the initial hardening checklist
-- Stand up [snapshots](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/snapshots-overview) and [site syncs](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/syncs-overview)
-- Standardize day-2 operations with [recipes](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/recipes-overview) and [vrg](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/vrg-cli)
+- Use [post-installation](https://app.gitbook.com/s/null/implementation-guide/post-installation) as the initial hardening checklist
+- Stand up [snapshots](https://app.gitbook.com/s/null/product-guide/backup-dr/snapshots-overview) and [site syncs](https://app.gitbook.com/s/null/product-guide/backup-dr/syncs-overview)
+- Standardize day-2 operations with [recipes](https://app.gitbook.com/s/null/product-guide/automation/recipes-overview) and [vrg](https://app.gitbook.com/s/null/product-guide/tools-integrations/vrg-cli)
 {% endcolumn %}
 {% endcolumns %}
 

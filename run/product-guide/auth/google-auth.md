@@ -50,7 +50,7 @@ VergeOS can be configured to allow users to authenticate using their corporate G
 !!! Success "Enabling the *Update Remote User* field will allow the VergeOS system to store the unique Google ID in the VergeOS user record (after initially locating the Google user with fields defined in Remote User Fields), so the unique identifier can subsequently be used for finding the Google user; this is typically recommended since fields such as email address are subject to change."
 
 11. **Additional Optional Fields**
-See [**Authorization Sources - Overview**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/auth/auth-sources-overview) for information regarding additional optional Fields.
+See [**Authorization Sources - Overview**](https://app.gitbook.com/s/null/product-guide/auth/auth-sources-overview) for information regarding additional optional Fields.
 
 12. After completing the configuration, click **Submit** to save the new authorization source.
 

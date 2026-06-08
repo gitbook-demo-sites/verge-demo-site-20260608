@@ -84,13 +84,13 @@ The same effect at common drive sizes:
 The TB-as-TiB convention applies throughout the VergeOS platform, including:
 
 - vSAN capacity and free-space figures shown on system, cluster, and tier dashboards
-- Storage tier sizing reported in the GUI (see [Storage Tiers](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/storage-tiers))
+- Storage tier sizing reported in the GUI (see [Storage Tiers](https://app.gitbook.com/s/null/product-guide/storage/storage-tiers))
 - Virtual machine drive sizes and snapshots
 - NAS volume sizes
-- Tenant resource allocations and [usage reports](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/tenant-usagereports)
+- Tenant resource allocations and [usage reports](https://app.gitbook.com/s/null/product-guide/tenants/tenant-usagereports)
 - Backup and replication size reporting
 
-Beyond the labeling convention, vSAN usable capacity is also affected by redundancy levels, which reduce usable capacity in exchange for fault tolerance. Deduplication, by contrast, generally increases usable capacity by collapsing duplicate blocks. These effects are independent of the unit-labeling behavior described on this page. See [vSAN Architecture](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/vsan-architecture) and [vSAN Redundancy Levels](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/vsan-redundancy-levels) for details.
+Beyond the labeling convention, vSAN usable capacity is also affected by redundancy levels, which reduce usable capacity in exchange for fault tolerance. Deduplication, by contrast, generally increases usable capacity by collapsing duplicate blocks. These effects are independent of the unit-labeling behavior described on this page. See [vSAN Architecture](https://app.gitbook.com/s/null/product-guide/storage/vsan-architecture) and [vSAN Redundancy Levels](https://app.gitbook.com/s/null/product-guide/storage/vsan-redundancy-levels) for details.
 
 ## Display rounding across screens
 
@@ -106,8 +106,8 @@ When sizing a VergeOS deployment from manufacturer specifications:
 
 ## Related guides
 
-- [Node Sizing Guide](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/sizing) — sizing recommendations for VergeOS deployments
-- [vSAN Architecture](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/vsan-architecture) — how vSAN distributes and protects data
-- [vSAN Redundancy Levels](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/vsan-redundancy-levels) — how redundancy affects usable capacity
-- [Storage Tiers](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/storage-tiers) — performance and capacity tiering
-- [Tenant Usage Reports](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/tenants/tenant-usagereports) — interpreting per-tenant capacity reporting
+- [Node Sizing Guide](https://app.gitbook.com/s/null/implementation-guide/sizing) — sizing recommendations for VergeOS deployments
+- [vSAN Architecture](https://app.gitbook.com/s/null/product-guide/storage/vsan-architecture) — how vSAN distributes and protects data
+- [vSAN Redundancy Levels](https://app.gitbook.com/s/null/product-guide/storage/vsan-redundancy-levels) — how redundancy affects usable capacity
+- [Storage Tiers](https://app.gitbook.com/s/null/product-guide/storage/storage-tiers) — performance and capacity tiering
+- [Tenant Usage Reports](https://app.gitbook.com/s/null/product-guide/tenants/tenant-usagereports) — interpreting per-tenant capacity reporting

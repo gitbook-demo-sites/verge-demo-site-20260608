@@ -40,13 +40,13 @@ The following guide outlines various options available for importing existing wo
 ### Enterprise Migration Platform
 
 !!! tip "Cirrus Data Integration with VergeOS"
-    **Cirrus Data** - a leader in enterprise data migration - has included VergeOS integration in their *Compute Migration* and *MigrateOps* products, enabling **zero downtime import** of physical or virtual machines into VergeOS from any platform. Ideal for complex enterprise migrations requiring minimal business disruption. [Learn More about Cirrus Data](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/cirrus-data)
+    **Cirrus Data** - a leader in enterprise data migration - has included VergeOS integration in their *Compute Migration* and *MigrateOps* products, enabling **zero downtime import** of physical or virtual machines into VergeOS from any platform. Ideal for complex enterprise migrations requiring minimal business disruption. [Learn More about Cirrus Data](https://app.gitbook.com/s/null/product-guide/tools-integrations/cirrus-data)
 
 ---
 
 ### Native VergeOS Import Methods
 
-#### [**VergeOS VMware Connector**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-vmware) 
+#### [**VergeOS VMware Connector**](https://app.gitbook.com/s/null/product-guide/virtual-machines/import-from-vmware) 
 
 **Recommended for:** Small to large VMware production environments
 
@@ -63,9 +63,9 @@ A full backup of source virtual machines into VergeOS is performed using the VMw
 **Additional Resources:**
 - [VMware Backup DR Guide](https://docs.verge.io/knowledge-base/vmwarebackupdrguide/)
 
-- [Importing VMs from VMware Service Backup Jobs](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-vmware)
+- [Importing VMs from VMware Service Backup Jobs](https://app.gitbook.com/s/null/product-guide/virtual-machines/import-from-vmware)
 
-#### [**Import from Uploaded File**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-upload)
+#### [**Import from Uploaded File**](https://app.gitbook.com/s/null/product-guide/virtual-machines/import-from-upload)
 
 **Recommended for:** Individual VMs and mixed virtualization environments
 
@@ -84,7 +84,7 @@ Upload VM configuration and disk files (VMX, VMDK, OVF, VHD, QCOW2, etc.) to the
 - Complete control over import process and timing
 - Works with any virtualization platform that can export standard formats
 
-#### [**NAS Volume Import**](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-nas)
+#### [**NAS Volume Import**](https://app.gitbook.com/s/null/product-guide/virtual-machines/import-from-nas)
 
 **Recommended for:** Batch imports from network storage
 
@@ -151,7 +151,7 @@ VergeOS supports a wide range of VM file formats:
 - Verify sufficient storage capacity across appropriate tiers
 - Configure network segments to match source environment VLANs
 - Plan IP address assignments and DNS configurations
-- Review [Guest OS Compatibility](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/guest-os-compatibility)
+- Review [Guest OS Compatibility](https://app.gitbook.com/s/null/product-guide/virtual-machines/guest-os-compatibility)
 
 ### Choosing the Right Method
 
@@ -244,13 +244,13 @@ VergeOS supports a wide range of VM file formats:
 ## Migration Resources
 
 ### Documentation Links
-- [Viewing Import Jobs](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/view-import-jobs) - Monitor and track import progress
-- [VM Best Practices](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-best-practices) - Comprehensive optimization guide
-- [Guest OS Compatibility](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/guest-os-compatibility) - Supported operating systems
+- [Viewing Import Jobs](https://app.gitbook.com/s/null/product-guide/virtual-machines/view-import-jobs) - Monitor and track import progress
+- [VM Best Practices](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-best-practices) - Comprehensive optimization guide
+- [Guest OS Compatibility](https://app.gitbook.com/s/null/product-guide/virtual-machines/guest-os-compatibility) - Supported operating systems
 
 ### Tools and Integrations
-- [Cirrus Data Migration Platform](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/cirrus-data) - Enterprise migration solutions
-- [Terraform Provider](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/tools-integrations/terraform-provider) - Infrastructure as code for automated deployments
+- [Cirrus Data Migration Platform](https://app.gitbook.com/s/null/product-guide/tools-integrations/cirrus-data) - Enterprise migration solutions
+- [Terraform Provider](https://app.gitbook.com/s/null/product-guide/tools-integrations/terraform-provider) - Infrastructure as code for automated deployments
 
 !!! success "Migration Success Tips"
     - **Start with a pilot migration** of non-critical VMs to validate the process

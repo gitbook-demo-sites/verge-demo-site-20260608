@@ -102,14 +102,14 @@ Utilize VergeOS as the main router and network manager for your lab and home LAN
 
 To set up a robust NAS for your home environment, VergeOS offers a built-in NAS service, perfect for managing shared storage with high capacity and redundancy.
 
-For step-by-step instructions on configuring and deploying the NAS service, see the [NAS Service Product Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/nas/nas-service). Additional configuration options and troubleshooting steps are covered in the [Knowledge Base](https://docs.verge.io/knowledge-base/category/nas/#troubleshooting-nas-cifs-shares).
+For step-by-step instructions on configuring and deploying the NAS service, see the [NAS Service Product Guide](https://app.gitbook.com/s/null/product-guide/nas/nas-service). Additional configuration options and troubleshooting steps are covered in the [Knowledge Base](https://docs.verge.io/knowledge-base/category/nas/#troubleshooting-nas-cifs-shares).
 
 **GPU Support:**  
 
 For users who need enhanced graphics capabilities, VergeOS supports both GPU Passthrough and NVIDIA vGPU. These options allow virtual machines to utilize either dedicated or shared GPU resources:
 
-   - **GPU Passthrough:** Provides a direct GPU connection to a VM for high-performance applications. See the [PCI Passthrough Product Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/generic-pci-passthrough).
-   - **NVIDIA vGPU:** Allows shared GPU access for multiple VMs, enabling efficient use of GPU resources for less-intensive tasks. Refer to the [NVIDIA vGPU Product Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/nvidia-vgpu-configuration).
+   - **GPU Passthrough:** Provides a direct GPU connection to a VM for high-performance applications. See the [PCI Passthrough Product Guide](https://app.gitbook.com/s/null/product-guide/system/generic-pci-passthrough).
+   - **NVIDIA vGPU:** Allows shared GPU access for multiple VMs, enabling efficient use of GPU resources for less-intensive tasks. Refer to the [NVIDIA vGPU Product Guide](https://app.gitbook.com/s/null/product-guide/system/nvidia-vgpu-configuration).
 
 **Use Cases:**
 
@@ -122,11 +122,11 @@ For users who need enhanced graphics capabilities, VergeOS supports both GPU Pas
 
 ## Useful Links
 
-- [VM Recipes](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/vm-recipes)
-- [System Snapshots](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/system-snapshots)
-- [vSAN Preferred Tiers](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/preferred-tiers)
-- [VPN](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/vpn/vpn-overview)
-- [Network Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/networks/network-overview)
-- [Licensing](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/system/licensing-and-updates)
+- [VM Recipes](https://app.gitbook.com/s/null/product-guide/automation/vm-recipes)
+- [System Snapshots](https://app.gitbook.com/s/null/product-guide/backup-dr/system-snapshots)
+- [vSAN Preferred Tiers](https://app.gitbook.com/s/null/product-guide/storage/preferred-tiers)
+- [VPN](https://app.gitbook.com/s/null/product-guide/vpn/vpn-overview)
+- [Network Overview](https://app.gitbook.com/s/null/product-guide/networks/network-overview)
+- [Licensing](https://app.gitbook.com/s/null/product-guide/system/licensing-and-updates)
 
 Each of these configurations is adaptable to specific homelab needs, allowing flexibility based on available hardware and individual use cases.

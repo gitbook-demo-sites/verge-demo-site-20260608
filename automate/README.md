@@ -19,5 +19,5 @@ This space pulls together the parts of the Verge platform story that usually mat
 
 ## Related spaces
 
-- Core platform context: [Run the platform](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/)
-- Early deployment design: [Plan and deploy VergeOS](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/)
+- Core platform context: [Run the platform](https://app.gitbook.com/s/null/)
+- Early deployment design: [Plan and deploy VergeOS](https://app.gitbook.com/s/null/)

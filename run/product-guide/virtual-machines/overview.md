@@ -43,7 +43,7 @@ Before creating your first virtual machines, ensure your VergeOS environment mee
 - **Media Files**: Installation ISOs uploaded to vSAN for guest operating system installation
 - **Resource Planning**: Adequate CPU, memory, and storage resources allocated for planned workloads
 
-For detailed system requirements, see the [VergeOS Installation Guide](https://app.gitbook.com/s/Q2bN3ctQdjv01GivTI08/implementation-guide/installation-guide).
+For detailed system requirements, see the [VergeOS Installation Guide](https://app.gitbook.com/s/null/implementation-guide/installation-guide).
 
 ## Quick Start Guide
 
@@ -54,28 +54,28 @@ New to VergeOS VM Management? Follow this recommended path:
 Start with a simple virtual machine to get familiar with the interface and verify your environment is ready.
 
 - **What you'll accomplish:** Deploy a working VM with basic configuration
-- **Next step:** [Creating Your First VM](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/creating-vms)
+- **Next step:** [Creating Your First VM](https://app.gitbook.com/s/null/product-guide/virtual-machines/creating-vms)
 
 ### 2. Understand VM Configuration (10 minutes)
 
 Learn about drives, network interfaces, and hardware settings to optimize your virtual machines.
 
 - **What you'll accomplish:** Master VM configuration options and performance tuning
-- **Next step:** [VM Configuration Guide](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-field-descriptions)
+- **Next step:** [VM Configuration Guide](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-field-descriptions)
 
 ### 3. Learn VM Best Practices (20 minutes)
 
 Discover proven strategies for sizing, security, and performance optimization.
 
 - **What you'll accomplish:** Apply enterprise-grade practices to your VM deployments
-- **Next step:** [VM Best Practices](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-best-practices)
+- **Next step:** [VM Best Practices](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-best-practices)
 
 ### 4. Explore Migration Strategies and Import Methods (30 minutes)
 
 Migrate existing workloads from other hypervisors or deploy from templates.
 
 - **What you'll accomplish:** Successfully import VMs from VMware, Hyper-V, or other platforms
-- **Next step:** [VM Import Methods](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-migration-overview)
+- **Next step:** [VM Import Methods](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-migration-overview)
 
 ## Key Capabilities
 
@@ -148,8 +148,8 @@ Provide isolated virtual environments for different customers or departments usi
 
 ### **Documentation Resources**
 
-- **[Guest OS Compatibility](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/guest-os-compatibility)** - Supported operating systems and configurations
-- **[VM Field Descriptions](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-field-descriptions)** - Complete reference for VM configuration options
+- **[Guest OS Compatibility](https://app.gitbook.com/s/null/product-guide/virtual-machines/guest-os-compatibility)** - Supported operating systems and configurations
+- **[VM Field Descriptions](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-field-descriptions)** - Complete reference for VM configuration options
 
 ### **Support**
 
@@ -162,42 +162,42 @@ Provide isolated virtual environments for different customers or departments usi
 
 ### Essential Getting Started
 
-- **[VM Best Practices](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-best-practices)** - Configuration guidelines and recommendations *(20 minutes)*
-- **[Creating VMs](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/creating-vms)** - Step-by-step VM creation guide *(15 minutes)*
-- **[Uploading Media Images](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/storage/uploading-files-to-vsan)** - Upload ISOs and installation media *(10 minutes)*
+- **[VM Best Practices](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-best-practices)** - Configuration guidelines and recommendations *(20 minutes)*
+- **[Creating VMs](https://app.gitbook.com/s/null/product-guide/virtual-machines/creating-vms)** - Step-by-step VM creation guide *(15 minutes)*
+- **[Uploading Media Images](https://app.gitbook.com/s/null/product-guide/storage/uploading-files-to-vsan)** - Upload ISOs and installation media *(10 minutes)*
 
 ### VM Configuration
 
-- **[Virtual Machine Drives](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-drives)** - Storage configuration and management
-- **[Virtual Machine Network Interfaces](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-nics)** - Network connectivity setup
-- **[VM Field Descriptions](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-field-descriptions)** - Complete configuration reference
-- **[Guest Agent](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-guest-agent)** - Enhanced VM integration and management
+- **[Virtual Machine Drives](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-drives)** - Storage configuration and management
+- **[Virtual Machine Network Interfaces](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-nics)** - Network connectivity setup
+- **[VM Field Descriptions](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-field-descriptions)** - Complete configuration reference
+- **[Guest Agent](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-guest-agent)** - Enhanced VM integration and management
 
 ### Import and Migration
 
-- **[Import Methods Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-migration-overview)** - Choose the right import method for your needs
-- **[Import from VMware](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-vmware)** - VMware migration guide
-- **[Import from Media Images](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-upload)** - Create VMs from disk images
-- **[Import from NAS](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/import-from-nas)** - Import from network storage
+- **[Import Methods Overview](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-migration-overview)** - Choose the right import method for your needs
+- **[Import from VMware](https://app.gitbook.com/s/null/product-guide/virtual-machines/import-from-vmware)** - VMware migration guide
+- **[Import from Media Images](https://app.gitbook.com/s/null/product-guide/virtual-machines/import-from-upload)** - Create VMs from disk images
+- **[Import from NAS](https://app.gitbook.com/s/null/product-guide/virtual-machines/import-from-nas)** - Import from network storage
 
 ### Advanced Operations
 
-- **[Live Migrations](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/live-migrations)** - Zero-downtime VM movement
-- **[Manual VM Migrations](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-manual-migration)** - Planned migration procedures
-- **[Working with VMs](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/working-with-vms)** - Day-to-day VM management
+- **[Live Migrations](https://app.gitbook.com/s/null/product-guide/virtual-machines/live-migrations)** - Zero-downtime VM movement
+- **[Manual VM Migrations](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-manual-migration)** - Planned migration procedures
+- **[Working with VMs](https://app.gitbook.com/s/null/product-guide/virtual-machines/working-with-vms)** - Day-to-day VM management
 
 ### Virtual Desktop Infrastructure
 
-- **[VDI Overview](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vdi-overview)** - Native VDI capabilities
-- **[VDI Administration](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vdi-administrator)** - Admin guide for VDI deployments
-- **[Remote Console Access](https://app.gitbook.com/s/pODKGSQETqL1gSqyxIq3/product-guide/virtual-machines/vm-remote-console)** - VM console connectivity
+- **[VDI Overview](https://app.gitbook.com/s/null/product-guide/virtual-machines/vdi-overview)** - Native VDI capabilities
+- **[VDI Administration](https://app.gitbook.com/s/null/product-guide/virtual-machines/vdi-administrator)** - Admin guide for VDI deployments
+- **[Remote Console Access](https://app.gitbook.com/s/null/product-guide/virtual-machines/vm-remote-console)** - VM console connectivity
 
 ### Backup and Recovery
 
-- **[VM Snapshots and Restores](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/backup-dr/vm-snapshots-restores)** - Backup and recovery strategies
+- **[VM Snapshots and Restores](https://app.gitbook.com/s/null/product-guide/backup-dr/vm-snapshots-restores)** - Backup and recovery strategies
 
 ### Automation
 
-- **[Recipes Overview](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/recipes-overview)** - Automated VM deployment templates
-- **[Task Engine](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/create-tasks)** - Scheduled automation and workflows  
+- **[Recipes Overview](https://app.gitbook.com/s/null/product-guide/automation/recipes-overview)** - Automated VM deployment templates
+- **[Task Engine](https://app.gitbook.com/s/null/product-guide/automation/create-tasks)** - Scheduled automation and workflows  
 - **[VergeOS API Guide](https://docs.verge.io/knowledge-base/verge-api-guide/)** - Programmatic infrastructure management

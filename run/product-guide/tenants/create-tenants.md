@@ -128,4 +128,4 @@ From the tenant dashboard page the tenant can be started by clicking ***Power On
 
 Tenant recipes allow for automated creation of tenants using a base tenant template and questions that allow customizing each new tenant instance.  
 
-The [Tenant Recipes page](https://app.gitbook.com/s/sppYQkyIET58BuAo0kqm/product-guide/automation/tenant-recipes) provides information about creating and using tenant recipes.
+The [Tenant Recipes page](https://app.gitbook.com/s/null/product-guide/automation/tenant-recipes) provides information about creating and using tenant recipes.
